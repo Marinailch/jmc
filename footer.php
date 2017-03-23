@@ -1,4 +1,4 @@
-
+﻿
     <!-- footer -->
     <div class="footer">
         <div class="container">
@@ -78,5 +78,7 @@
     <script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/custom.js"></script>
     <script src="js/script.js"></script>
+
+
 </body>
 </html>

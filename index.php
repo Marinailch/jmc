@@ -8,36 +8,17 @@
                                 <div class="sp-slide mdc-slide-rgba">
                                     <div class="sp-image-container">
                                     <img class="sp-image sp-image-bg" src="img/slider1.jpg" data-src="img/slider1.jpg" data-retina="img/slider1.jpg" alt="" /></div>
-                                    <p class="sp-layer sp-txt-2" data-horizontal="10%" data-vertical="30%" data-show-transition="right" data-show-delay="400" data-hide-delay="300" data-show-duration="800" data-hide-duration="800">Наш опыт, знания и руки – на страже вашего здоровья! </p>
-                                    <hr width="10%" size="1"  color="#12c5c3" class="sp-layer sp-txt-2" data-horizontal="10%" data-vertical="38%" data-show-transition="left" data-show-delay="800" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000">
-                                    <p class="sp-layer sp-txt-3" data-horizontal="10%" data-vertical="46%" data-show-transition="up" data-show-delay="1200" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>Наша миссия – оказание высоко-квалифицированной помощи </i></p>
-                                    <p class="sp-layer sp-txt-3" data-horizontal="10%" data-vertical="52%" data-show-transition="up" data-show-delay="1800" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>нашим пациентам, забота об их здоровье, профилактика </i></p>
-                                    <p class="sp-layer sp-txt-3" data-horizontal="10%" data-vertical="58%" data-show-transition="up" data-show-delay="2500" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>и пропаганда здорового образа жизни</i></p>
-
-
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="25%" data-position="topright" data-show-transition="down" data-show-delay="800" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d1">Онколог</a></p>
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="35%" data-position="topright" data-show-transition="down" data-show-delay="1200" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d2">Онко-дерматолог</a></p>
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="45%" data-position="topright" data-show-transition="down" data-show-delay="1600" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d3">Дермато-венеролог</a></p>
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="55%" data-position="topright" data-show-transition="down" data-show-delay="2000" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d4">Гинеколог</a></p>
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="65%" data-position="topright" data-show-transition="down" data-show-delay="2500" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d5">Уролог</a></p>
+                                    <p class="sp-layer sp-txt-2" data-horizontal="20%" data-vertical="30%" data-show-transition="right" data-show-delay="400" data-hide-delay="300" data-show-duration="800" data-hide-duration="800">Мы нацелены только на один результат</p>
+                                    <p class="sp-layer sp-txt-3" data-horizontal="20%" data-vertical="40%" data-show-transition="up" data-show-delay="1200" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>Ваша здоровье!</i></p>
+<!--                                    <p class="sp-layer sp-txt-3" data-horizontal="20%" data-vertical="52%" data-show-transition="up" data-show-delay="1800" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>нашим пациентам, забота об их здоровье, профилактика </i></p>-->
+                                    <p class="sp-layer sp-txt-4 " data-horizontal="20%" data-vertical="50%" data-position="topleft" data-show-transition="down" data-show-delay="1800" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d5" class="hvr-grow-shadow">Записаться на приём</a></p>
                                 </div>
                                 <div class="sp-slide">
                                     <div class="sp-image-container">
-                                    <img class="sp-image sp-image-bg" src="img/exterior1.jpg"
-                                    data-src="img/exterior1.jpg"
-                                    data-retina="img/exterior1.jpg" alt="" /></div>
-                                    <p class="sp-layer sp-txt-2" data-horizontal="10%" data-vertical="27%" data-show-transition="right" data-show-delay="400" data-hide-delay="300" data-show-duration="800" data-hide-duration="800">Наш опыт, знания и руки - на страже вашего здоровья! </p>
-                                    <hr width="10%" size="1"  color="#12c5c3" class="sp-layer sp-txt-2" data-horizontal="10%" data-vertical="39%" data-show-transition="left" data-show-delay="800" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000">
-                                    <p class="sp-layer sp-txt-3" data-horizontal="10%" data-vertical="46%" data-show-transition="up" data-show-delay="1200" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>Наша миссия – оказание высоко-квалифицированной помощи </i></p>
-                                    <p class="sp-layer sp-txt-3" data-horizontal="10%" data-vertical="52%" data-show-transition="up" data-show-delay="1800" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>нашим пациентам, забота об их здоровье, профилактика </i></p>
-                                    <p class="sp-layer sp-txt-3" data-horizontal="10%" data-vertical="58%" data-show-transition="up" data-show-delay="2500" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>и пропаганда здорового образа жизни</i></p>
-
-
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="25%" data-position="topright" data-show-transition="down" data-show-delay="800" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d1">Онколог</a></p>
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="35%" data-position="topright" data-show-transition="down" data-show-delay="1200" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d2">Онко-дерматолог</a></p>
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="45%" data-position="topright" data-show-transition="down" data-show-delay="1600" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d3">Дермато-венеролог</a></p>
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="55%" data-position="topright" data-show-transition="down" data-show-delay="2000" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d4">Гинеколог</a></p>
-                                    <p class="sp-layer sp-txt-4" data-horizontal="7%" data-vertical="65%" data-position="topright" data-show-transition="down" data-show-delay="2500" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d5">Уролог</a></p>
+                                        <img class="sp-image sp-image-bg" src="img/slider1.jpg" data-src="img/slider1.jpg" data-retina="img/slider1.jpg" alt="" /></div>
+                                    <p class="sp-layer sp-txt-2" data-horizontal="20%" data-vertical="30%" data-show-transition="right" data-show-delay="400" data-hide-delay="300" data-show-duration="800" data-hide-duration="800">Мы нацелены только на один результат</p>
+                                    <p class="sp-layer sp-txt-3" data-horizontal="20%" data-vertical="40%" data-show-transition="up" data-show-delay="1200" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>Ваша здоровье!</i></p>
+                                    <p class="sp-layer sp-txt-4" data-horizontal="20%" data-vertical="50%" data-position="topleft" data-show-transition="down" data-show-delay="1800" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d5">Записаться на приём</a></p>
                                 </div>
                             </div>
                         </div>
@@ -52,15 +33,24 @@
    </div> <!-- end main container -->
      <div class="why_block">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 "><div class="why" style="background-color: #12c5c3"><div class="why_text" ><h4>Команда специалистов</h4><p>Поможет точно пос&shyта&shyвить диаг&shyноз, ре&shyшить проб&shyлему  лю&shyбой сте&shyпе&shyни слож&shyности</p></div></div> </div>
-                <div class="col-sm-6 col-md-3"><div class="why" style="background-color: #0cb8b6"><div class="why_text" ><h4>Доступные цены</h4><p>
 
-                    Качественный сер&shyвис луч&shyших спе&shyциа&shyлистов нашего города по дос&shyтупным для Вас ценам</p></div></div> </div>
-                <div class="col-sm-6 col-md-3"><div class="why" style="background-color: #09aba9"><div class="why_text" ><h4>Экономия времени</h4><p>
-                    Комплексный   подход - у нас консуль&shyтация обсле&shyдование и лече&shyние всего в один прием</p></div></div> </div>
-                <div class="col-sm-6 col-md-3"><div class="why last_why" style=""><div class="why_text" ><h4 class="last_way">Современное оборудование</h4><p>Cамые сов&shyре&shyмен&shyные ме&shyто&shyдики диаг&shyнос&shyтики и ле&shyчения в дер&shyма&shyто&shyло&shyгии, и онко&shyдерма&shyтологии.
-                </p></div></div> </div>
+            <div id="owl-demo">
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Хирургия</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Терапия</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Педиатрия</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Гинекология<br>акушерство</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Лабораторная диагностика</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Урология</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Дерматология</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Отоларингология</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Эндокринология</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Неврология</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Психиатрия Психотерапия</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Вакцинация</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>УЗИ санология</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Реабилитология</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Артопедия</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Эндоскопия</p></div>
             </div>
         </div>
     </div>
