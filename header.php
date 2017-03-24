@@ -165,9 +165,9 @@
                                     </li>
                                     <li><a href="blog.php">О Нас</a>
                                         <ul style="width:200px;">
-                                            <li><a href="blog.php"><i class="ti-angle-right"></i>О клинике</a></li>
-                                            <li><a href="blog.php"><i class="ti-angle-right"></i>Руководство</a></li>
-                                            <li><a href="blog.php"><i class="ti-angle-right"></i>Обращение Раввина</a></li>
+                                            <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>О клинике</a></li>
+                                            <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Руководство</a></li>
+                                            <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Обращение Раввина</a></li>
                                         </ul>
                                     </li>
 
