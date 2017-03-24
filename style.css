@@ -1856,6 +1856,36 @@ margin: 10px 20px 25px 0px;
   background-color: #c0d05b;
 }
 
+/*.directions_button {*/
+  /*font-size: 16px;*/
+  /*color: #927575;*/
+  /*font-weight: 500;*/
+  /*line-height: 26px !important;*/
+  /*display: inline-block;*/
+  /*min-width: 292px;*/
+  /*text-align: left;*/
+  /*background: rgba(255, 255, 255, 0.9);*/
+  /*padding: 3px 7px;*/
+  /*-moz-border-radius: 30px;*/
+  /*!* -webkit-border-radius: 30px; *!*/
+  /*!* border-radius: 30px; *!*/
+  /*margin: 5px;*/
+/*}*/
+/*.directions_button:hover{*/
+  /*color: #c0d05b !important;*/
+  /*background-color: #fff;*/
+/*}*/
+
+
+.diractions_main_img{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+}
+
+
+
 
 .servise_page{
   background-image: url(img/vrach_card/bg_doc1.jpg);
