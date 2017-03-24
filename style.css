@@ -391,13 +391,13 @@ width: 210px;
 
 .mdc-header.mdc-style-01 .mdc-main-menu > ul > li > a, .mdc-header.mdc-style-04 .mdc-main-menu > ul > li > a {
   text-transform: lowercase;
-  font-size: 16px;
+  font-size: 15px;
   padding: 0px 10px 0px 10px;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
   color: rgb(87, 53, 45);
   position: relative;
-  margin: 10px;
+  margin: 23px;
 }
 
 
@@ -1613,12 +1613,7 @@ margin: 10px 20px 25px 0px;
 
 
 /*Доктор*/
-.doctor{
-  background-image: url(img/vrach_card/bg_doc.jpg);
-  background-color: #ededed;
-  background-repeat: no-repeat;
-  padding: 65px 0px;
-}
+
 .doctor_card{
   width: 100%;
   background-color: #fff;
@@ -1637,9 +1632,10 @@ margin: 10px 20px 25px 0px;
  }
 .doctor_info h3{
   font-weight: bold;
-  font-size: 27px;
-  color: #1ea9a7;
-  margin-top: 25px;
+  font-size: 18px;
+  color: #57352d;
+  margin-top: 49px;
+  margin-bottom: 27px;
 }
 .doctor_info p{
   font-size: 14.5px;
@@ -1824,6 +1820,43 @@ margin: 10px 20px 25px 0px;
 
 
 /*______________________pages_______________*/
+.directions_header{
+  width: 100%;
+ height: 150px;
+  background: #c0d05b;
+  display: block;
+  overflow: hidden;
+}
+.directions_header p{
+  color: #fff;
+  font-size: 37px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+
+}
+
+.directions_button{
+  font-size: 19px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 33px !important;
+  display: inline-block;
+  min-width: 292px;
+  text-align: center;
+  background: rgba(255, 190, 107, 0.9);
+  padding: 3px 7px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  margin: 5px;
+}
+.directions_button:hover{
+  color: #fff !important;
+  background-color: #c0d05b;
+}
+
+
 .servise_page{
   background-image: url(img/vrach_card/bg_doc1.jpg);
   background-repeat: no-repeat;
@@ -2110,9 +2143,7 @@ margin: 10px 20px 25px 0px;
 .glav_vrach {
     margin-right: -162px;
 }
-.text-doc h3{
-  margin-bottom: 115px;
-}
+
 .text-doc h2{
   color: #ffffff;
 }
