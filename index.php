@@ -11,7 +11,7 @@
                                     <p class="sp-layer sp-txt-2" data-horizontal="20%" data-vertical="30%" data-show-transition="right" data-show-delay="400" data-hide-delay="300" data-show-duration="800" data-hide-duration="800">Мы нацелены только на один результат</p>
                                     <p class="sp-layer sp-txt-3" data-horizontal="20%" data-vertical="40%" data-show-transition="up" data-show-delay="1200" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>Ваша здоровье!</i></p>
 <!--                                    <p class="sp-layer sp-txt-3" data-horizontal="20%" data-vertical="52%" data-show-transition="up" data-show-delay="1800" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>нашим пациентам, забота об их здоровье, профилактика </i></p>-->
-                                    <p class="sp-layer sp-txt-4 " data-horizontal="20%" data-vertical="50%" data-position="topleft" data-show-transition="down" data-show-delay="1800" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d5" class="hvr-grow-shadow">Записаться на приём</a></p>
+                                    <p class="sp-layer sp-txt-4 " data-horizontal="20%" data-vertical="50%" data-position="topleft" data-show-transition="down" data-show-delay="1800" data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a href="doctors.php?id=d5" class="hvr-grow-shadow slider_button">Записаться на приём</a></p>
                                 </div>
                                 <div class="sp-slide">
                                     <div class="sp-image-container">
@@ -247,34 +247,4 @@
         </div>
     </div>
 
-    <!-- карта -->
-    <div id="map">
-        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d393.28072723472116!2d35.03177514623215!3d48.46292172991606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2e2474bd75f%3A0x26d8285bb658c8c!2zMTBBLCDQstGD0LvQuNGG0Y8g0JLQvtC70L7QtNC40LzQuNGA0LAg0JDQvdGC0L7QvdC-0LLQuNGH0LAsIDEw0JAsINCU0L3RltC_0YDQvsyBLCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1477326625329" width="100%" height="500" frameborder="0"   allowfullscreen></iframe>
-
-        <div class="map_info">
-            <a><img src="img/14.png" id="show_map" onclick="bshow();" ></a>
-            <a><img src="img/15.png" id="hiden_map" onclick="bhiden();" ></a>
-            <h3>часы работы</h3>
-            <p><span style="margin-right: 15px;">пн-пт</span>    9:00 - 19:00</p>
-            <hr>
-            <p><span style="margin-right: 40px;">сб</span>9:00 - 15:00</p>
-            <hr>
-            <p><span style="margin-right: 40px;">вс</span><span style="letter-spacing: 0.1em;">выходной</span></p>
-            <hr>
-
-            <h3>контакты</h3>
-            <p style="letter-spacing: 0.04em;">+38  066-267-32-72</p>
-            <hr>
-            <p>ул. Херсонская, 10а</p>
-            <hr>
-            <p class="spaising07">г. Днепр, Украина</p>
-            <hr>
-            <div class="social">
-                <a href="https://ok.ru/profile/571221007200" target="_blank"><img src="img/ok_f.png" style="width: auto;"></a>
-                <a href="https://vk.com/public136244461" target="_blank"><img src="img/vk_f.png" style="width: auto;"></a>
-                <a href="https://www.facebook.com/dnipromedical/" target="_blank"><img src="img/fb_f.png" style="width: auto;"></a>
-            </div>
-
-        </div>
-    </div>
 <?php include "footer.php" ?>

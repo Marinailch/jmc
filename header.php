@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/slider-pro.min.css">
     <link rel="stylesheet" href="style.css">
    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="css/hover-min.css" rel="stylesheet" media="all"> <!--hover animaition affect-->
 
 
@@ -132,29 +133,29 @@
                                         <ul>
                                             <li><a href="consult.php?id=c1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Хирургия</a></li>
                                             <li><a href="consult.php?id=c2" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Терапия</a></li>
-                                            <li><a href="consult.php?id=c3"class="hvr-grow-shadow"><i class="ti-angle-right"></i>Гинекология</a></li>
-                                            <li><a href="consult.php?id=c4"class="hvr-grow-shadow"><i class="ti-angle-right"></i>Эндокринология</a></li>
-                                            <li><a href="consult.php?id=c5"class="hvr-grow-shadow"><i class="ti-angle-right"></i>Профилактика</a></li>
+                                            <li><a href="consult.php?id=c3" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Гинекология</a></li>
+                                            <li><a href="consult.php?id=c4" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Эндокринология</a></li>
+                                            <li><a href="consult.php?id=c5" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Профилактика</a></li>
                                             <li><a href="consult.php?id=c5" style="font-weight: 600"><i class="ti-angle-right"></i>ЕЩЕ</a></li>
                                         </ul>
                                     </li>
 
                                     <li><a href="servise.php">Диагностика</a>
-                                        <ul style="width: 370px;">
-                                            <li><a href="servise.php#ud1"><i class="ti-angle-right"></i>УЗИ</a>
-                                                <ul>
-                                                    <li><a href="servise.php#ud1"><i class="ti-angle-right"></i>Брюшной полости</a>
-                                                    <li><a href="servise.php#ud2"><i class="ti-angle-right"></i>Щитовидной железы</a></li>
-                                                    <li><a href="servise.php#ud3"><i class="ti-angle-right"></i>Молочных желёз</a></li>
-                                                    <li><a href="servise.php#ud4"><i class="ti-angle-right"></i>Лимфатических узлов</a></li>
-                                                    <li><a href="servise.php#ud5"><i class="ti-angle-right"></i>ЕЩЕ</a></li>
+                                        <ul  class="menu_item_plus">
+                                            <li><a href="servise.php#ud1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>УЗИ</a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="servise.php#ud1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Брюшной полости</a>
+                                                    <li><a href="servise.php#ud2" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Щитовидной железы</a></li>
+                                                    <li><a href="servise.php#ud3" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Молочных желёз</a></li>
+                                                    <li><a href="servise.php#ud4" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Лимфатических узлов</a></li>
+                                                    <li><a href="servise.php#ud5" class=""><i class="ti-angle-right"></i>ЕЩЕ</a></li>
                                                </ul>
                                             </li>
 
-                                            <li><a href="servise.php#um1"><i class="ti-angle-right"></i>ЭХОКГ</a></li>
-                                            <li><a href="servise.php#ug1"><i class="ti-angle-right"></i>ВГДС</a></li>
-                                            <li><a href="servise.php#uu1"><i class="ti-angle-right"></i>Колоноскопия</a></li>
-                                            <li><a href="servise.php#ue1"><i class="ti-angle-right"></i>ЕЩЕ</a></li>
+                                            <li><a href="servise.php#um1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ЭХОКГ</a></li>
+                                            <li><a href="servise.php#ug1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ВГДС</a></li>
+                                            <li><a href="servise.php#uu1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Колоноскопия</a></li>
+                                            <li><a href="servise.php#ue1" class=""><i class="ti-angle-right"></i>ЕЩЕ</a></li>
                                         </ul>
                                     </li>
 
@@ -163,7 +164,7 @@
                                     <li><a href="index.php#about">Блог</a>
                                     </li>
                                     <li><a href="blog.php">О Нас</a>
-                                        <ul>
+                                        <ul style="width:200px;">
                                             <li><a href="blog.php"><i class="ti-angle-right"></i>О клинике</a></li>
                                             <li><a href="blog.php"><i class="ti-angle-right"></i>Руководство</a></li>
                                             <li><a href="blog.php"><i class="ti-angle-right"></i>Обращение Раввина</a></li>
