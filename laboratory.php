@@ -1,5 +1,7 @@
 
-<?php include "header.php" ?>
+<?php
+include "header.php"
+?>
  <div class="directions_header">
             <p>Лаборатория</p>
 </div>

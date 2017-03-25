@@ -101,7 +101,8 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5LKVC4"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                height="0" width="0" style="display:none;visibility:hidden">
+        </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
@@ -132,11 +133,11 @@
                                     <span class="head_phone_one"></span>
                                 </div>
                                 <div class="head_phone_number"
-                                <span>+38-050-900-76-61</br>+38-096-551-75-65</span>
+                                <span>+38-050-900-76-61<br>+38-096-551-75-65</span>
                             </div>
                         </div>
                         <div class="col-6  head_adress">
-                            <span class="geo">717-70-58</br> 717-70-59</span><br>
+                            <span class="geo">717-70-58<br> 717-70-59</span><br>
                         </div>
                     </div>
 
