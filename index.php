@@ -38,7 +38,7 @@
                 <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Хирургия</p></div>
                 <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Терапия</p></div>
                 <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Педиатрия</p></div>
-                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Гинекология<br>акушерство</p></div>
+                <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Гинекология<br>Акушерство</p></div>
                 <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Лабораторная диагностика</p></div>
                 <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Урология</p></div>
                 <div class="item" ><div class="circle"><img src="img/icon_diractions/owl1.png"  alt="Owl Image"></div><p>Дерматология</p></div>

@@ -52,9 +52,7 @@
 
                             <?php  switch($id){
 
-                                default:
-                                    $img="dr";
-                                    break;
+
                                 case 'c1':
                                     $img="dr1";
                                     break;
@@ -78,16 +76,18 @@
                                     break;
                                 case 'c8':
                                     $img="dr6";
-                                    break;}
+                                    break;
+                                default:
+                                    $img="dr";
+                                    break;
+                            }
                             ?>
 
-                            <img src="img/diractions/<?php echo"$img";?>.jpg" class="diractions_main_img">
+                            <img src="img/diractions/<?="$img"?>.jpg" class="diractions_main_img">
 
                                         <?php  switch($id){
 
-                                                 default:
-                                                  include 'pages/directions/c.php';
-                                                break;
+
                                                 case 'c1':
                                                   include 'pages/directions/c1.php';
                                                 break;
@@ -112,7 +112,9 @@
                                                 case 'c8':
                                                   include 'pages/directions/c8.php';
                                                 break;
-
+                                            default:
+                                                include 'pages/directions/c.php';
+                                                break;
 
                                                     }
                                           ?>
