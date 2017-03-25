@@ -58,18 +58,35 @@
    <!--  О НАС -->
     <div class="container">
         <div class="row">
-            <!-- <div class=" col-md-3 hidden-xs hidden-sm"><img src="img/30.jpg" class="solution"></div> -->
-           <div class=" col-md-12">
-               <div id="about"><h3> <span class="mark1h3"> о </span>  <b><span class="mark2h3"> нас </span></b></h3>
-               <hr  width="50px" align="left">
-               <p>Клиника "Днипро-медикал" на Херсонской 10-а специализируется на оказании дерматологической, онко-дерматологической и онкологической помощи жителям Днепра и области.</p>
+           <div class=" col-md-6">
+               <div id="about">
+                    <h2> <b>Еврейский медицинский центр «JMC»</b></h2>
+                    <p>ДОБРО ПОЖАЛОВАТЬ</p>
+                    <p>Мы многопрофильный, высококлассный медицинский центр, принципиально нового для Украины уровня и подхода к оказанию медицинских услуг, где наилучшим образом сочетаются новейшие технологии, самое современное и уникальное оборудование, высочайшая квалификация и интеллект врачей всех профилей, высокий сервис.</p>
+               </div>
+           </div>
+            <div class="col-sm-6">
+                <div class="wrapper">
+                    <div class="box">
+                        <input type="text" value="75" class="dial" data-readOnly="true" data-thickness="0.05" data-fgColor="#f7a34a" data-bgColor="#fff" >
+                    </div>
+                </div>
 
-               <p>К вашим услугам высококлассные специалисты  с многолетним опытом в дерматологии, онкодерматологии, онкологии, маммологии, гинекологии, онкоурологии и косметологии.</p>
+                <script>
+                    $(".dial").knob();
+                    $({animatedVal: 0}).animate({animatedVal: 70}, {
+                        duration: 2000,
+                        easing: "swing",
+                        step: function() {
+                            $(".dial").val(Math.ceil(this.animatedVal)).trigger("change");
+                        }
+                    });
 
-              <p> Мы готовы прийти к Вам на помощь, наши сотрудники предоставят весь спектр услуг для вашего скорейшего выздоровления. В клинике проводится <strong><a href="servise.php#ud1">малоинвазивная радиоволновая хирургия кожи</a></strong> ,  <strong><a href="servise.php#ud2">гистологическое исследование кожи в дерматологии</a></strong>, <strong><a href="servise.php#ud3">дерматоскопия эксперт уровня</a></strong>, <strong><a href="servise.php#ud4">диспансерная дерматоскопия</a></strong>, <strong><a href="servise.php#ud6">составление карты "родинок"</a></strong>,  <strong><a href="servise.php#um1">УЗД молочной железы</a></strong>,  <strong><a href="servise.php#um2">биопсия молочной железы</a></strong>, <strong><a href="servise.php#uv1">обследование и лечение ЗППП</a></strong>, <strong><a href="servise.php#uk1">лазерная и радиоволновая косметология</a></strong>, <strong><a href="servise.php#ug1">гинекологический осмотр</a></strong>, <strong><a href="servise.php#uu1">урологический осмотр</a></strong>. Так же в клиника специализируется в проведении эстетических процедур таких как <strong><a href="servise.php#ue1">плазмолифтинг</a></strong>, <strong><a href="servise.php#ue2">контурная пластика</a></strong>, <strong><a href="servise.php#ue3">ботулотоксины</a></strong>, <strong><a href="servise.php#ue4">биоревитализация</a></strong>, <strong><a href="servise.php#ue5">пилинги</a></strong>, <strong><a href="servise.php#ue6">уходы</a></strong>.</p>
-           <p>Успешно сотрудничаем с более двадцати страховыми компаниями Украины. <br>Лицензия МОЗУ №870 от 18.08.2016г</p>
-               </div></div>
-       </div>
+
+                </script>
+                <img src="img/glav_vrach1.png" class="solution img-circle" alt="Cinque Terre" width="304" height="236">
+            </div>
+        </div>
    </div>
 
   <!--  Запись на прием -->

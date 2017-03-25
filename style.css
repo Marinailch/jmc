@@ -1296,9 +1296,23 @@ body {
     color: #899442;
 }
 
-/*TND OWL*/
+/*eND OWL*/
 
 /*О НАС*/
+/*анимация круга со счетчиком*/
+.wrapper{
+    width: 920px;
+    margin: 65px auto 0;
+    /*overflow: hidden;*/
+}
+
+.box{
+    width: 200px;
+    margin-left: 80px;
+    float: left;
+
+}
+/*анимация круга со счетчиком*/
 h3 {
     font-size: 43px;
     font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
@@ -1326,6 +1340,9 @@ h3 {
 
 .solution {
     margin-top: -30px;
+    margin-left: -78px;
+    width: 350px;
+    height: 330px;
 }
 
 /*Запись на прием*/
