@@ -84,7 +84,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-lg-4 head_logo">
-                            <a href="index.php"><img src="img/logo.jpg"></a>
+                            <a href="index.php"><img src="img/logo.gif"></a>
                             <div id="menu_mob" onclick="block();"><img src="img/12.png" alt="menu"></div>
                             <div id="menu" >
                                 <ul><a href=""><img src="img/13.png" id="back" onclick="none();" ></a>
@@ -159,7 +159,16 @@
                                         </ul>
                                     </li>
 
-                                    <li><a href="blog.php">Лаборатория</a></li>
+                                    <li><a href="blog.php">Лаборатория</a>
+                                    <ul style="min-width: 351px;">
+                                        <li><a href="directions.php?id=c1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Гематологические исследования</a></li>
+                                        <li><a href="directions.php?id=c2" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Иммуногематологические исследования </a></li>
+                                        <li><a href="directions.php?id=c3" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Биохимические исследования </a></li>
+                                        <li><a href="directions.php?id=c4" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Паразитарные инфекции</a></li>
+                                        <li><a href="directions.php?id=c5" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Цитологические исследования</a></li>
+                                        <li><a href="directions.php?id=c" style="font-weight: 600"><i class="ti-angle-right"></i>ЕЩЕ</a></li>
+                                    </ul>
+                                    </li>
                                     <li><a href="index.php#about">Врачи</a> </li>
                                     <li><a href="index.php#about">Блог</a>
                                     </li>
