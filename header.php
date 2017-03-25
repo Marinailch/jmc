@@ -8,6 +8,9 @@
     <meta name="author" content="">
     <meta name="keywords" content="Клиника">
     <link rel="stylesheet" href="css/bootstrap.min.css" media="all"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="css/slider-pro.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -196,20 +199,20 @@
                                 </ul>
                             </li>
 
-                            <li><a href="blog.php">Лаборатория</a>
+                            <li><a href="laboratory.php">Лаборатория</a>
                                 <ul style="min-width: 351px;">
-                                    <li><a href="directions.php?id=c1" class="hvr-grow-shadow"><i
+                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
                                                     class="ti-angle-right"></i>Гематологические исследования</a></li>
-                                    <li><a href="directions.php?id=c2" class="hvr-grow-shadow"><i
+                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
                                                     class="ti-angle-right"></i>Иммуногематологические исследования </a>
                                     </li>
-                                    <li><a href="directions.php?id=c3" class="hvr-grow-shadow"><i
+                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
                                                     class="ti-angle-right"></i>Биохимические исследования </a></li>
-                                    <li><a href="directions.php?id=c4" class="hvr-grow-shadow"><i
+                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
                                                     class="ti-angle-right"></i>Паразитарные инфекции</a></li>
-                                    <li><a href="directions.php?id=c5" class="hvr-grow-shadow"><i
+                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
                                                     class="ti-angle-right"></i>Цитологические исследования</a></li>
-                                    <li><a href="directions.php?id=c" style="font-weight: 600"><i
+                                    <li><a href="laboratory.php" style="font-weight: 600"><i
                                                     class="ti-angle-right"></i>ЕЩЕ</a></li>
                                 </ul>
                             </li>

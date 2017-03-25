@@ -1313,12 +1313,6 @@ h3 {
     color: #0ba5a3;
 }
 
-hr {
-    border: 2px solid;;
-    color: #0ba5a3;
-    margin-top: 10px;
-}
-
 #about {
     padding: 0px 0px 0px 75px;
     text-align: justify;
@@ -1739,7 +1733,7 @@ margin: 10px 20px 25px 0px;
 }
 
 .text-doc p, .text-doc strong {
-    font-size: 18px;
+    font-size: 15px;
     color: #424242;
     text-align: justify;
     width: 95%;
