@@ -1,4 +1,13 @@
 <?php
+
+include_once 'Config/config.php';
+//include_once 'Library/DataBase.php';
+
+
+$foo = new DataBase($db);
+$res = $foo->hiho();
+var_dump($res);
+
 include "header.php"
 ?>
     <div class="main-content">
