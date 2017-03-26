@@ -17,30 +17,30 @@ if (isset($_GET['id'])) {
                         <div class="doctor_info">
 <!--                            <h3>Наша клиника специализируется</h3>-->
                             <ul style=" list-style-type: none;     padding-left: 0;     margin-top: 10px;">
-                                <li><a href="directions.php?id=c1"  class="hvr-grow-shadow directions_button">Гинекология</a></li>
-                                <li><a href="directions.php?id=c2"  class="hvr-grow-shadow directions_button">Хирургия</a></li>
-                                <li><a href="directions.php?id=c3"  class="hvr-grow-shadow directions_button">Педиатрия</a></li>
-                                <li><a href="directions.php?id=c4"  class="hvr-grow-shadow directions_button">Терапия</a></li>
-                                <li><a href="directions.php?id=c5"  class="hvr-grow-shadow directions_button">Педиатрия</a></li>
-                                <li><a href="directions.php?id=c6"  class="hvr-grow-shadow directions_button">Диетология</a></li>
-                                <li><a href="directions.php?id=c7"  class="hvr-grow-shadow directions_button">Травматология</a></li>
-                                <li><a href="directions.php?id=c8"  class="hvr-grow-shadow directions_button">Мануальная терапия</a></li>
-                                <li><a href="directions.php?id=c9"  class="hvr-grow-shadow directions_button">Массаж</a></li>
-                                <li><a href="directions.php?id=c10" class="hvr-grow-shadow directions_button">Урология</a></li>
-                                <li><a href="directions.php?id=c11" class="hvr-grow-shadow directions_button">Дерматология</a></li>
-                                <li><a href="directions.php?id=c12" class="hvr-grow-shadow directions_button">Косметология</a></li>
-                                <li><a href="directions.php?id=c13" class="hvr-grow-shadow directions_button">Гастроэнтерология</a></li>
-                                <li><a href="directions.php?id=c14" class="hvr-grow-shadow directions_button">Эндокринология</a></li>
-                                <li><a href="directions.php?id=c15" class="hvr-grow-shadow directions_button">Неврология</a></li>
-                                <li><a href="directions.php?id=c16" class="hvr-grow-shadow directions_button">Офтальмология</a></li>
-                                <li><a href="directions.php?id=c17" class="hvr-grow-shadow directions_button">Пульмонология</a></li>
-                                <li><a href="directions.php?id=c18" class="hvr-grow-shadow directions_button">Отоларингология</a></li>
-                                <li><a href="directions.php?id=c19" class="hvr-grow-shadow directions_button">Детская неврология</a></li>
-                                <li><a href="directions.php?id=c20" class="hvr-grow-shadow directions_button">Кардиология</a></li>
-                                <li><a href="directions.php?id=c21" class="hvr-grow-shadow directions_button">Проктология</a></li>
-                                <li><a href="directions.php?id=c22" class="hvr-grow-shadow directions_button">Ревматология</a></li>
-                                <li><a href="directions.php?id=c23" class="hvr-grow-shadow directions_button">Сосудистая хирургия</a></li>
-                                <li><a href="directions.php?id=c23" class="hvr-grow-shadow directions_button">Профилактика</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c1"  class="directions_button">Гинекология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c2"  class="directions_button">Хирургия</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c3"  class="directions_button">Педиатрия</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c4"  class="directions_button">Терапия</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c5"  class="directions_button">Педиатрия</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c6"  class="directions_button">Диетология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c7"  class="directions_button">Травматология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c8"  class="directions_button">Мануальная терапия</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c9"  class="directions_button">Массаж</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c10" class="directions_button">Урология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c11" class="directions_button">Дерматология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c12" class="directions_button">Косметология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c13" class="directions_button">Гастроэнтерология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c14" class="directions_button">Эндокринология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c15" class="directions_button">Неврология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c16" class="directions_button">Офтальмология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c17" class="directions_button">Пульмонология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c18" class="directions_button">Отоларингология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c19" class="directions_button">Детская неврология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c20" class="directions_button">Кардиология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c21" class="directions_button">Проктология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c22" class="directions_button">Ревматология</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c23" class="directions_button">Сосудистая хирургия</a></li>
+                                <li class="hvr-grow-shadow "><a href="directions.php?id=c23" class="directions_button">Профилактика</a></li>
                             </ul>
 
 <!--                            <p class="spaising07"></p>-->
@@ -121,5 +121,56 @@ if (isset($_GET['id'])) {
                                           ?>
                         </nav>
                 </div>
+
+      <div class="diraction_form">
+            <h2>Запишитесь на приём!</h2>
+            <form class="form-horizontal ">
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="name"></label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" placeholder="Ваше Имя">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone"></label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="phone" placeholder="Телефон">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email"></label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Электронный адрес">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="data"></label>
+                    <div class="col-sm-10">
+                        <input type="date" class="form-control" id="date" name="date" placeholder="Дата" required>
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="diractions_select" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                            <select class="form-control" id="diractions_select">
+                                <option>Ваберите из списка гениколога</option>
+                                <option>Прокофьева Анна Семеновна</option>
+                                <option>Прокофьева Анна Семеновна</option>
+                            </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default diraction_form_button">Записаться</button>
+                    </div>
+                </div>
+            </form>
+
+    </div>
+
 
 <?php include "footer.php" ?>

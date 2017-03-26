@@ -1296,9 +1296,23 @@ body {
     color: #899442;
 }
 
-/*TND OWL*/
+/*eND OWL*/
 
 /*О НАС*/
+/*анимация круга со счетчиком*/
+.wrapper{
+    width: 920px;
+    margin: 65px auto 0;
+    /*overflow: hidden;*/
+}
+
+.box{
+    width: 200px;
+    margin-left: 80px;
+    float: left;
+
+}
+/*анимация круга со счетчиком*/
 h3 {
     font-size: 43px;
     font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
@@ -1326,6 +1340,9 @@ h3 {
 
 .solution {
     margin-top: -30px;
+    margin-left: -78px;
+    width: 250px;
+    height: 250px;
 }
 
 /*Запись на прием*/
@@ -1737,6 +1754,10 @@ margin: 10px 20px 25px 0px;
     color: #424242;
     text-align: justify;
     width: 95%;
+    margin-bottom: 30px;
+}
+.diraction_form{
+    max-width: 500px;
 }
 
 /*------------------------------footer*/
@@ -1908,52 +1929,116 @@ margin: 10px 20px 25px 0px;
 
 }
 
-.directions_button {
-    font-size: 19px;
-    color: #ffffff;
-    font-weight: 500;
-    line-height: 33px !important;
-    display: inline-block;
-    min-width: 292px;
-    text-align: center;
-    background: rgba(255, 190, 107, 0.9);
-    padding: 3px 7px;
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
-    border-radius: 30px;
-    margin: 5px;
-}
-
-.directions_button:hover {
-    color: #fff !important;
-    background-color: #c0d05b;
-}
+/*side bar diracton*/
 
 /*.directions_button {*/
-/*font-size: 16px;*/
-/*color: #927575;*/
-/*font-weight: 500;*/
-/*line-height: 26px !important;*/
-/*display: inline-block;*/
-/*min-width: 292px;*/
-/*text-align: left;*/
-/*background: rgba(255, 255, 255, 0.9);*/
-/*padding: 3px 7px;*/
-/*-moz-border-radius: 30px;*/
-/*!* -webkit-border-radius: 30px; *!*/
-/*!* border-radius: 30px; *!*/
-/*margin: 5px;*/
+    /*font-size: 19px;*/
+    /*color: #ffffff;*/
+    /*font-weight: 500;*/
+    /*line-height: 33px !important;*/
+    /*display: inline-block;*/
+    /*min-width: 292px;*/
+    /*text-align: center;*/
+    /*background: rgba(255, 190, 107, 0.9);*/
+    /*padding: 3px 7px;*/
+    /*-moz-border-radius: 30px;*/
+    /*-webkit-border-radius: 30px;*/
+    /*border-radius: 30px;*/
+    /*margin: 5px;*/
 /*}*/
-/*.directions_button:hover{*/
-/*color: #c0d05b !important;*/
-/*background-color: #fff;*/
+
+/*.directions_button:hover {*/
+    /*color: #fff !important;*/
+    /*background-color: #c0d05b;*/
 /*}*/
+
+.directions_button {
+font-size: 16px;
+color: #927575;
+font-weight: 500;
+line-height: 26px !important;
+display: inline-block;
+min-width: 170px;
+text-align: left;
+background: rgba(255, 255, 255, 0.9);
+padding: 0px 3px;
+-moz-border-radius: 30px;
+/* -webkit-border-radius: 30px; */
+/* border-radius: 30px; */
+margin: 5px;
+}
+.directions_button:hover{
+color: #c0d05b !important;
+background-color: #fff;
+}
+.directions_button:before{
+    content: "";
+    position: absolute;
+    left: -7px;
+    bottom: 11px;
+    border: 8px solid transparent;
+    border-left: 8px solid #f7a34a;
+}
+/*____________*/
+
+.diractions_service_price{
+    text-align: right;
+}
+
+.diractions_laboratory_name {
+    width: 75%;
+}
+
+.diractions_service{
+    width: 97%;
+}
+
 
 .diractions_main_img {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+.diraction_form{
+    width:50%;
+    margin: auto;
+}
+.diraction_form h2{
+    text-align: center;
+    color: #99b000;
+}
+.diraction_form_button{
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 47px !important;
+    display: inline-block;
+    min-width: 197px;
+    text-align: center;
+    background: #ffbe6b;
+    padding: 3px 7px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    border-color: #fff;
+}
+
+.diraction_form_button:hover{
+    background-color: #c0d05b;
+    border-color: #fff;
+    color: #fff;
+
+}
+
+#c ul{
+   margin-bottom: 20px;
+}
+#c h4{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
 
 .servise_page {
     background-image: url(img/vrach_card/bg_doc1.jpg);
@@ -2290,6 +2375,20 @@ margin: 10px 20px 25px 0px;
         padding: 28px 10px 0px 11px;
     }
 
+    .directions_button{
+        max-width: 180px;
+    }
+
+    .directions_header p{
+        font-size: 200%;
+
+        margin-top: 10%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    .doctor_info {
+        padding-bottom: 0px;
+    }
     .glav_vrach {
         margin-right: -230px;
     }

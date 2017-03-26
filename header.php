@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" media="all"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery.knob.min.js"></script>
 
     <link rel="stylesheet" href="css/slider-pro.min.css">
     <link rel="stylesheet" href="style.css">
@@ -158,18 +159,12 @@
                             <li><a href="index.php">Главная</a></li>
                             <li><a href="directions.php?id=c"> Направления</a>
                                 <ul>
-                                    <li><a href="directions.php?id=c1" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Хирургия</a></li>
-                                    <li><a href="directions.php?id=c2" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Терапия</a></li>
-                                    <li><a href="directions.php?id=c3" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Гинекология</a></li>
-                                    <li><a href="directions.php?id=c4" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Эндокринология</a></li>
-                                    <li><a href="directions.php?id=c5" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Профилактика</a></li>
-                                    <li><a href="directions.php?id=c" style="font-weight: 600"><i
-                                                    class="ti-angle-right"></i>ЕЩЕ</a></li>
+                                    <li><a href="directions.php?id=c1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Хирургия</a></li>
+                                    <li><a href="directions.php?id=c2" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Терапия</a></li>
+                                    <li><a href="directions.php?id=c3" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Гинекология</a></li>
+                                    <li><a href="directions.php?id=c4" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Эндокринология</a></li>
+                                    <li><a href="directions.php?id=c5" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Профилактика</a></li>
+                                    <li><a href="directions.php?id=c" style="font-weight: 600"><i class="ti-angle-right"></i>ЕЩЕ</a></li>
                                 </ul>
                             </li>
 
@@ -181,53 +176,31 @@
                                                             class="ti-angle-right"></i>Брюшной полости</a>
                                             <li><a href="servise.php#ud2" class="hvr-grow-shadow"><i
                                                             class="ti-angle-right"></i>Щитовидной железы</a></li>
-                                            <li><a href="servise.php#ud3" class="hvr-grow-shadow"><i
-                                                            class="ti-angle-right"></i>Молочных желёз</a></li>
-                                            <li><a href="servise.php#ud4" class="hvr-grow-shadow"><i
-                                                            class="ti-angle-right"></i>Лимфатических узлов</a></li>
+                                            <li><a href="servise.php#ud3" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Молочных желёз</a></li>
+                                            <li><a href="servise.php#ud4" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Лимфатических узлов</a></li>
                                             <li><a href="servise.php#ud5" class=""><i class="ti-angle-right"></i>ЕЩЕ</a>
                                             </li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="servise.php#um1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ЭХОКГ</a>
-                                    </li>
-                                    <li><a href="servise.php#ug1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ВГДС</a>
-                                    </li>
-                                    <li><a href="servise.php#uu1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Колоноскопия</a>
-                                    </li>
+                                    <li><a href="servise.php#um1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ЭХОКГ</a> </li>
+                                    <li><a href="servise.php#ug1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ВГДС</a>  </li>
+                                    <li><a href="servise.php#uu1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Колоноскопия</a> </li>
                                     <li><a href="servise.php#ue1" class=""><i class="ti-angle-right"></i>ЕЩЕ</a></li>
                                 </ul>
                             </li>
 
-                            <li><a href="laboratory.php">Лаборатория</a>
-                                <ul style="min-width: 351px;">
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Гематологические исследования</a></li>
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Иммуногематологические исследования </a>
-                                    </li>
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Биохимические исследования </a></li>
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Паразитарные инфекции</a></li>
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Цитологические исследования</a></li>
-                                    <li><a href="laboratory.php" style="font-weight: 600"><i
-                                                    class="ti-angle-right"></i>ЕЩЕ</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="laboratory.php">Лаборатория</a></li>
+
+
                             <li><a href="index.php#about">Врачи</a></li>
                             <li><a href="index.php#about">Блог</a>
                             </li>
                             <li><a href="blog.php">О Нас</a>
                                 <ul style="width:200px;">
-                                    <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>О
-                                            клинике</a></li>
+                                    <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>О клинике</a></li>
                                     <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Руководство</a>
-                                    </li>
-                                    <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Обращение
-                                            Раввина</a></li>
+                                    <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Обращение Раввина</a></li>
                                 </ul>
                             </li>
 

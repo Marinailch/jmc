@@ -10,10 +10,10 @@
                     <div class="footer_service_content">
                             <span class="consultation">Контакты</span>
                             <div class="line_foot"></div>
-                            <div>717-70-58  директор></div>
-                            <div>717-70-59  регистратура></div>
-                            <div class="footer_phone">+38-050-900-76-61></div>
-                            <div class="footer_phone">+38-096-551-75-65></div>
+                            <div>717-70-58  директор</div>
+                            <div>717-70-59  регистратура</div>
+                            <div class="footer_phone">+38-050-900-76-61</div>
+                            <div class="footer_phone">+38-096-551-75-65</div>
 
                     </div>
                 </div>
@@ -57,7 +57,7 @@
 
 
 
-	<script src="js/jquery-1.12.0.min.js"></script>
+<!--	<script src="js/jquery-1.12.0.min.js"></script>-->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/superfish.min.js"></script>
     <script src="js/jquery.sliderPro.min.js"></script>

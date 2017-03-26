@@ -5,8 +5,11 @@ include "header.php"
  <div class="directions_header">
             <p>Лаборатория</p>
 </div>
-<div class="container">
 
+<div class="container">
+<div>
+  <img src="img/lab.jpg">
+</div>
   <h4>В нашей клинике Вы можите сдать весь спектр лабораторных анализов;</h4>
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">

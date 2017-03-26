@@ -1562,3 +1562,14 @@
   });
 
   /**END OWL*/
+  if($(document).scrollTop()>=$('#about').scrollTop()+100){
+      $(".dial").knob();
+      $({animatedVal: 0}).animate({animatedVal: 100}, {
+          duration: 2000,
+          easing: "swing",
+      step: function() {
+          $(".dial").val(Math.ceil(this.animatedVal)).trigger("change");
+      }
+  });
+
+  }
