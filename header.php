@@ -157,7 +157,7 @@
                     <nav class="mdc-main-menu">
                         <ul>
                             <li><a href="index.php">Главная</a></li>
-                            <li><a href="directions.php?id=c"> Направления</a>
+                            <li><a href="directions.php?id=c">Направления</a>
                                 <ul>
                                     <li><a href="directions.php?id=c1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Хирургия</a></li>
                                     <li><a href="directions.php?id=c2" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Терапия</a></li>

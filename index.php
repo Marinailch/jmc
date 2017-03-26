@@ -3,9 +3,9 @@
 include_once 'Config/config.php';
 
 $foo = new DataBase($db);
-$res = $foo->hiho();
-var_dump($res);
-echo 'hi';
+$res = $foo->getDirections();
+//var_dump($res);
+
 include "header.php"
 ?>
     <div class="main-content">
