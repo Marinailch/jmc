@@ -102,7 +102,8 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5LKVC4"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                height="0" width="0" style="display:none;visibility:hidden">
+        </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
@@ -133,11 +134,11 @@
                                     <span class="head_phone_one"></span>
                                 </div>
                                 <div class="head_phone_number"
-                                <span>+38-050-900-76-61</br>+38-096-551-75-65</span>
+                                <span>+38-050-900-76-61<br>+38-096-551-75-65</span>
                             </div>
                         </div>
                         <div class="col-6  head_adress">
-                            <span class="geo">717-70-58</br> 717-70-59</span><br>
+                            <span class="geo">717-70-58<br> 717-70-59</span><br>
                         </div>
                     </div>
 
@@ -189,17 +190,9 @@
                                 </ul>
                             </li>
 
-                            <li><a href="laboratory.php">Лаборатория</a>
-                                <ul style="min-width: 351px;">
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i
-                                                    class="ti-angle-right"></i>Гематологические исследования</a></li>
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Иммуногематологические исследования </a></li>
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Биохимические исследования </a></li>
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Паразитарные инфекции</a></li>
-                                    <li><a href="laboratory.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Цитологические исследования</a></li>
-                                    <li><a href="laboratory.php" style="font-weight: 600"><i class="ti-angle-right"></i>ЕЩЕ</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="laboratory.php">Лаборатория</a></li>
+
+
                             <li><a href="index.php#about">Врачи</a></li>
                             <li><a href="index.php#about">Блог</a>
                             </li>

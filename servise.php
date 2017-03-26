@@ -1,4 +1,6 @@
-<?php include "header.php" ?>
+<?php
+include "header.php"
+?>
 
     <div class="servise_page">
         <div class="container">
@@ -66,4 +68,6 @@
 
         </div>
 	</div>
-<?php include "footer.php" ?>
+<?php
+include "footer.php"
+?>

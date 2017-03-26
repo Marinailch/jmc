@@ -1,5 +1,4 @@
-﻿
-    <!-- footer -->
+﻿    <!-- footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -11,10 +10,10 @@
                     <div class="footer_service_content">
                             <span class="consultation">Контакты</span>
                             <div class="line_foot"></div>
-                            <div>717-70-58  директор            </div>
-                            <div>717-70-59  регистратура        </div>
-                            <div class="footer_phone">+38-050-900-76-61              </div>
-                            <div class="footer_phone">+38-096-551-75-65              </div>
+                            <div>717-70-58  директор</div>
+                            <div>717-70-59  регистратура</div>
+                            <div class="footer_phone">+38-050-900-76-61</div>
+                            <div class="footer_phone">+38-096-551-75-65</div>
 
                     </div>
                 </div>
@@ -49,8 +48,8 @@
 
 
                     <div class="sosial_block Copiright">Мы в социальных сетях</div>
-                    <div class="sosial_block"><a href="fb.com"><div class="sosial_fb"> </div></a></div>
-                    <div class="sosial_block"><a href="in.com"><div class="sosial_in"> </div></a></div>
+                    <div class="sosial_block"><a href="fb.com"><div class="sosial_fb"></div></a></div>
+                    <div class="sosial_block"><a href="in.com"><div class="sosial_in"></div></a></div>
 
 
     </div>
