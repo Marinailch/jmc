@@ -1,6 +1,6 @@
 <?php
 
-include_once 'Config/config.php';;
+include_once 'Config/config.php';
 
 $foo = new DataBase($db);
 $res = $foo->hiho();
