@@ -399,7 +399,7 @@ body {
     font-weight: 600;
     color: rgb(87, 53, 45);
     position: relative;
-    margin: 23px;
+    margin: 20px;
 }
 
 .mdc-header.mdc-style-01 .mdc-main-menu > ul > li > a:hover, .mdc-header.mdc-style-04 .mdc-main-menu > ul > li > a:hover {
@@ -1394,6 +1394,29 @@ h3 {
     margin-top: 0;
 }
 
+.doctors_cart_button{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 36px !important;
+    display: inline-block;
+    min-width: 134px;
+    text-align: center;
+    background: #ffbe6b;
+    padding: 2px 5px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    border-color: #fff;
+}
+.doctors_cart_button:hover{
+    background-color: #c0d05b;
+    border-color: #fff;
+    color: #fff;
+
+}
+
+
 .mark1h3 {
     color: #3d3d3d;
 }
@@ -1483,44 +1506,9 @@ h3 {
 }
 
 /*Оборудование*/
-.Surgitron {
-    background: #0ba5a3 url("img/bg_line.png") 0;
-    width: 100%;
-    padding: 50px 0px;
-}
 
-.Surgitron_text {
-    width: 337px;
-    margin: auto;
-    color: white;
-}
 
-.Surgitron button {
-    border: #fff 2px solid;
-    color: #fff;
-    background-color: transparent;
-    padding: 10px 40px;
-    font-size: 16px;
-    margin: auto;
-    width: 250px;
-}
 
-.Surgitron button:hover {
-    color: #0ea5a3;
-    background-color: rgb(255, 255, 255);
-}
-
-.Surgitron_button {
-    margin: auto;
-    width: 225px;
-    margin-top: 15px;
-}
-
-.Surgitron p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    text-align: left;
-}
 
 /*блог главная*/
 h5 {
@@ -1695,6 +1683,9 @@ margin: 10px 20px 25px 0px;
     background-color: #fff;
     margin: auto;
     overflow: hidden;
+    border: #dcdcdc 1px solid;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 .doctor_card img:only-of-type {
@@ -2039,6 +2030,45 @@ background-color: #fff;
     margin-left: 20px;
 }
 
+/*-----------lab_________*/
+.lab_table_header td:first-child{
+    width: 78%;
+    min-width: 200px;
+    padding-left: 5% !important;
+}
+
+.lab_table_header th:first-child{
+    width: 78%;
+    min-width: 200px;
+    text-align: center;
+}
+
+.lab_table_header td:nth-child(2){
+    width: 120px;
+    text-align: center;
+}
+
+.lab_table_header th:nth-child(2){
+    width: 120px;
+    text-align: center;
+}
+
+.lab_table_header td:nth-child(3){
+    width: 80px;
+    text-align: center;
+}
+
+.lab_table_header th:nth-child(3){
+    width: 80px;
+    text-align: center;
+}
+
+#lab h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*-------------------------------------------*/
 
 .servise_page {
     background-image: url(img/vrach_card/bg_doc1.jpg);
