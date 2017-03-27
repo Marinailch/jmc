@@ -3,8 +3,8 @@
 include_once 'Config/config.php';
 
 $foo = new DataBase($db);
-$res = $foo->hiho();
-var_dump($res);
+$res = $foo->getDirections();
+//var_dump($res);
 
 include "header.php"
 ?>
