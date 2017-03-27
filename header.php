@@ -11,7 +11,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/jquery.knob.min.js"></script>
-
     <link rel="stylesheet" href="css/slider-pro.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -19,93 +18,9 @@
           type='text/css'>
     <link href="css/hover-min.css" rel="stylesheet" media="all"> <!--hover animaition affect-->
 
-
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-88952618-1', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-92700305-1', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-
-
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function () {
-                try {
-                    w.yaCounter41881894 = new Ya.Metrika({
-                        id: 41881894,
-                        clickmap: true,
-                        trackLinks: true,
-                        accurateTrackBounce: true,
-                        webvisor: true,
-                        trackHash: true,
-                        ecommerce: "dataLayer"
-                    });
-                } catch (e) {
-                }
-            });
-
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () {
-                    n.parentNode.insertBefore(s, n);
-                };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else {
-                f();
-            }
-        })(document, window, "yandex_metrika_callbacks");
-    </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/41881894" style="position:absolute; left:-9999px;" alt=""/></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
-
 </head>
 <body>
 <header>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5LKVC4"
-                height="0" width="0" style="display:none;visibility:hidden">
-        </iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
     <div class="main-container">
         <header class="mdc-header mdc-style-01">
@@ -174,15 +89,13 @@
                                         <ul class="sub_menu">
                                             <li><a href="servise.php#ud1" class="hvr-grow-shadow"><i
                                                             class="ti-angle-right"></i>Брюшной полости</a>
-                                            <li><a href="servise.php#ud2" class="hvr-grow-shadow"><i
-                                                            class="ti-angle-right"></i>Щитовидной железы</a></li>
+                                            <li><a href="servise.php#ud2" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Щитовидной железы</a></li>
                                             <li><a href="servise.php#ud3" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Молочных желёз</a></li>
                                             <li><a href="servise.php#ud4" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Лимфатических узлов</a></li>
                                             <li><a href="servise.php#ud5" class=""><i class="ti-angle-right"></i>ЕЩЕ</a>
                                             </li>
                                         </ul>
                                     </li>
-
                                     <li><a href="servise.php#um1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ЭХОКГ</a> </li>
                                     <li><a href="servise.php#ug1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ВГДС</a>  </li>
                                     <li><a href="servise.php#uu1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Колоноскопия</a> </li>
@@ -191,16 +104,13 @@
                             </li>
 
                             <li><a href="laboratory.php">Лаборатория</a></li>
-
-
-                            <li><a href="index.php#about">Врачи</a></li>
-                            <li><a href="index.php#about">Блог</a>
-                            </li>
-                            <li><a href="blog.php">О Нас</a>
+                            <li><a href="doctors.php">Врачи</a></li>
+                            <li><a href="blog.php">Блог</a> </li>
+                            <li><a href="about.php">О Нас</a>
                                 <ul style="width:200px;">
-                                    <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>О клинике</a></li>
-                                    <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Руководство</a>
-                                    <li><a href="blog.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Обращение Раввина</a></li>
+                                    <li><a href="about.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>О клинике</a></li>
+                                    <li><a href="about.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Руководство</a>
+                                    <li><a href="about.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Обращение Раввина</a></li>
                                 </ul>
                             </li>
 
