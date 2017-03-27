@@ -2039,6 +2039,45 @@ background-color: #fff;
     margin-left: 20px;
 }
 
+/*-----------lab_________*/
+.lab_table_header td:first-child{
+    width: 78%;
+    min-width: 200px;
+    padding-left: 5% !important;
+}
+
+.lab_table_header th:first-child{
+    width: 78%;
+    min-width: 200px;
+    text-align: center;
+}
+
+.lab_table_header td:nth-child(2){
+    width: 120px;
+    text-align: center;
+}
+
+.lab_table_header th:nth-child(2){
+    width: 120px;
+    text-align: center;
+}
+
+.lab_table_header td:nth-child(3){
+    width: 80px;
+    text-align: center;
+}
+
+.lab_table_header th:nth-child(3){
+    width: 80px;
+    text-align: center;
+}
+
+#lab h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*-------------------------------------------*/
 
 .servise_page {
     background-image: url(img/vrach_card/bg_doc1.jpg);
