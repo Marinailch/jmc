@@ -1330,12 +1330,28 @@ h3 {
 #about {
     padding: 0px 0px 0px 75px;
     text-align: justify;
-    font-family: serif;
-    font-size: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
 }
 
 #about p {
+    margin-bottom: 20px;
+    margin-top: 25px;
+    color: #8e8e8e;
+
+}
+#about>h5 {
     margin-bottom: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    color: #f7a34a;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+#about>h2{
+    font-size: 39px;
+    text-align: left;
 }
 
 .solution {
@@ -1698,7 +1714,7 @@ margin: 10px 20px 25px 0px;
 
 .doctor_info {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .doctor_info h3 {
@@ -1707,6 +1723,13 @@ margin: 10px 20px 25px 0px;
     color: #57352d;
     margin-top: 49px;
     margin-bottom: 27px;
+}
+
+.doctor_info h4{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #de9e5a;
+
 }
 
 .doctor_info p {
@@ -1749,6 +1772,10 @@ margin: 10px 20px 25px 0px;
 }
 .diraction_form{
     max-width: 500px;
+}
+
+.directions_menu{
+    text-align: left;
 }
 
 /*------------------------------footer*/
@@ -2000,9 +2027,10 @@ background-color: #fff;
     color: #99b000;
 }
 .diraction_form_button{
-    font-size: 19px;
+    font-size: 15px !important;
+    font-weight: 600;
     color: #ffffff;
-    font-weight: 500;
+
     line-height: 47px !important;
     display: inline-block;
     min-width: 197px;

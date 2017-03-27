@@ -22,7 +22,7 @@ var_dump($id);
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="doctor_card">
+                    <div class="directions_menu">
                         <div class="doctor_info">
 
                             <ul style="list-style-type: none;padding-left: 0;margin-top: 10px;">

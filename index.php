@@ -122,14 +122,22 @@ include "header.php"
            <div class=" col-md-6">
                <div id="about">
                     <h2> <b>Еврейский медицинский центр «JMC»</b></h2>
-                    <p>ДОБРО ПОЖАЛОВАТЬ</p>
+                    <h5>ДОБРО ПОЖАЛОВАТЬ</h5>
                     <p>Мы многопрофильный, высококлассный медицинский центр, принципиально нового для Украины уровня и подхода к оказанию медицинских услуг, где наилучшим образом сочетаются новейшие технологии, самое современное и уникальное оборудование, высочайшая квалификация и интеллект врачей всех профилей, высокий сервис.</p>
+                   <button type="submit" class="btn btn-default diraction_form_button">Подробнее</button>
                </div>
+
            </div>
             <div class="col-sm-6">
                 <div class="wrapper">
                     <div class="box">
+                        <p><span>На все</span></p>
                         <input type="text" value="100" class="dial" data-readOnly="true" data-thickness="0.05" data-fgColor="#f7a34a" data-bgColor="#fff" >
+                        <p>%</p>
+                        <p>Честные</p>
+                        <p>отношения</p>
+
+
                     </div>
                 </div>
 
@@ -179,7 +187,7 @@ include "header.php"
     <div id="team">
         <div class="container bg_doctor">
             <div class="row">
-                <div class="col-md-3" style="float: right; "><img src="img/glav_vrach.png" class="glav_vrach"></div>
+                <div class="col-md-3" style="float: right;"><img src="img/glav_vrach.png" class="glav_vrach"></div>
                 <div class=" col-md-9" style="float: left;">
                     <div class="team_text">
                         <h3><span class="mark1h3"> наша </span> <b><span class="mark2h3"> команда </span></b></h3>
