@@ -126,81 +126,117 @@ include "header.php"
                     <p>Мы многопрофильный, высококлассный медицинский центр, принципиально нового для Украины уровня и подхода к оказанию медицинских услуг, где наилучшим образом сочетаются новейшие технологии, самое современное и уникальное оборудование, высочайшая квалификация и интеллект врачей всех профилей, высокий сервис.</p>
                    <button type="submit" class="btn btn-default diraction_form_button">Подробнее</button>
                </div>
-
            </div>
-            <div class="col-sm-6">
+
+
+
+
+            <div class="col-sm-6 about_counter">
                 <div class="wrapper">
                     <div class="box">
-                        <p><span>На все</span></p>
-                        <input type="text" value="100" class="dial" data-readOnly="true" data-thickness="0.05" data-fgColor="#f7a34a" data-bgColor="#fff" >
-                        <p>%</p>
-                        <p>Честные</p>
-                        <p>отношения</p>
-
-
+                        <p><span class="about_counter_el1">НА ВСЕ</span></p>
+                        <input type="text" value="100" class="dial" data-readOnly="true" data-thickness="0.03" data-fgColor="#f7a34a" data-bgColor="#fff" data-width="300px" data-fontWeight="600" data-font="" >
+                        <p class="about_counter_el2">%</p>
+                        <p class="about_counter_el3">Честные</p>
+                        <p class="about_counter_el4">Взаимоотношения</p>
                     </div>
                 </div>
-
-                <script>
-                    $(".dial").knob();
-                    $({animatedVal: 0}).animate({animatedVal: 100}, {
-                        duration: 2000,
-                        easing: "swing",
-                        step: function() {
-                            $(".dial").val(Math.ceil(this.animatedVal)).trigger("change");
-                        }
-                    });
-
-
-                </script>
-                <img src="img/glav_vrach1.png" class="solution img-circle" alt="Cinque Terre" width="304" height="236">
+                            <script>
+                                $(".dial").knob();
+                                $({animatedVal: 0}).animate({animatedVal: 100}, {
+                                    duration: 2000,
+                                    easing: "swing",
+                                    step: function() {
+                                        $(".dial").val(Math.ceil(this.animatedVal)).trigger("change");
+                                    }
+                                });
+                            </script>
+            <img src="img/glav_vrach1.png" class="solution img-circle" alt="Cinque Terre" width="304" height="236"/>
             </div>
+
+
+
+
+
         </div>
-   </div>
-
-
         </div>
     </div>
 
+<div class="container about_item">
+    <h2> <b>О нашем центре</b></h2>
+    <h5>ДАВАЙТЕ ПОЗНАКОМИМСЯ!</h5>
+    <div class="row">
+         <div class="col-sm-4"><img src="img/about/about3.jpg"><div class="about_item_text"><h4>Наши руководители </h4><p>Целями нашего центра являются оказание квалифицированной, качественной, адекватной состоянию здоровья пациента ...   </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
+         <div class="col-sm-4"><img src="img/about/about2.jpg"><div class="about_item_text"><h4>О клинике         </h4><p>С открытием нового двухэтажного офиса JMC в центре «Менора» мы расширяем деятельность, в частности ...               </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
+         <div class="col-sm-4"><img src="img/about/about1.jpg"><div class="about_item_text"><h4>Главний раввин    </h4><p>Начинается месяц Адар. Для еврейского народа это месяц Мазаль и Броха (успеха и благословения). Сказано в Талмуде ...</p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
+    </div>
+
+</div>
 
     <!--  Запись на прием -->
-    <div class="order_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="oreder_text">
-                        <p>Вы можите записаться<br> на прием к специалистам <br> нашей клиники приямо сейчас</p>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="oreder_button">
-                        <a href="index.php#map">
-                            <button><b>Записаться на приём</b></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div  class="order_bg">
+    <div class="container">
+        <h2>получить консультацию врачей</h2>
+        <h5>УЗКОЙ СПЕЦИАЛИЗАЦИИ</h5>
+        <button type="submit" class="btn btn-default ">Записаться на приём</button>
     </div>
+
+</div>
+
 
     <!--  наша команда -->
-    <div id="team">
-        <div class="container bg_doctor">
+    <div id="team" style="background-image: url(img/bg_doc.jpg);">
+        <div class="container ">
             <div class="row">
-                <div class="col-md-3" style="float: right;"><img src="img/glav_vrach.png" class="glav_vrach"></div>
+                <div class="col-md-3" style="float: right; "></div>
                 <div class=" col-md-9" style="float: left;">
                     <div class="team_text">
-                        <h3><span class="mark1h3"> наша </span> <b><span class="mark2h3"> команда </span></b></h3>
-                        <hr width="150px" align="left">
-                        <p>Ведущий специалист клиники, кандидат медицинских наук, Завизион Виктор Федорович, врач
-                            онкохирург, хирург высшей категории, стаж работы более 30 лет, доцент кафедры онкологии и
-                            медицинской радиологии, имеет более 190 публикаций в отечественных и зарубежных
-                            изданиях. </p>
+                        <p><span class="mark1h3">Наши услуги </span></p>
 
-                        <a href="doctors.php?id=d1"><p><i>«Наша команда это слаженный коллектив специалистов высокого
-                                    уровня квалификации, способных вместе быстро и грамотно поставить правильный
-                                    диагноз, провести качественное обследование и назначить соответствующее лечение»</i>
-                            </p></a>
+                        <div class="tema_ul">
+
+
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse in">
+                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse">
+                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
 
                     </div>
                 </div>
@@ -208,135 +244,58 @@ include "header.php"
         </div>
     </div>
 
-    <!-- Врачи -->
-    <div id="vrachi">
+<!--______OWL________-->
+
+    <div class="why_block">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <a href="doctors.php?id=d5">
-                        <div class="vrachi_card">
-                            <img src="img/vrach_card/d5.jpg">
-                            <div class="social">
-                                <img src="img/vrach_card/ok.png">
-                                <img src="img/vrach_card/fb.png">
-                                <img src="img/vrach_card/vk.png">
-                            </div>
-                            <div class="vrach_text">
-                                <h6>Сергеев</h6>
-                                <h5><strong>Станислав Николаевич</strong></h5>
-                                <p>Врач уролог, высшей категории, стаж работы 17 лет. Консуль&shyтации, диагностика и
-                                    лечение уро&shyлогических проблем, обзор&shyная экскреторная уро&shyграфия, УЗИ,
-                                    исследование на онко&shyмаркеры... </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <a href="doctors.php?id=d3">
-                        <div class="vrachi_card">
-                            <img src="img/vrach_card/d3.jpg">
-                            <div class="social">
-                                <img src="img/vrach_card/ok.png">
-                                <img src="img/vrach_card/fb.png">
-                                <img src="img/vrach_card/vk.png">
-                            </div>
-                            <div class="vrach_text">
-                                <h6>Нороха </h6>
-                                <h5>Игорь Иванович</h5>
-                                <p>Врач дермато-венеролог, выс&shyшей кате&shyго&shyрии, имеет много&shyлет&shyний опыт
-                                    веде&shyния па&shyци&shyентов с дер&shyма&shyто&shyло&shyги&shyчес&shyки&shyми,
-                                    кож&shyны&shyми, ве&shyни&shyро&shyло&shyгичес&shyкими проб&shyле&shyма&shyми.
-                                    Прак&shyти&shyкует лазер&shyные мето&shyдики в лече&shyнии кож&shyной...</p>
-                            </div>
+            <h4>Наши преимущества</h4>
+            <div id="owl-demo2">
+                <div class="item"> <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                    <h4>КАЧЕСТВЕННО И ВЫСОКОТЕХНОЛОГИЧНО</h4>
+                    <p>JMC гарантирует качество результатов диагностики и лечения;<br>
+                        мы работаем на современном лабораторном и диагностическом оборудовании,<br>
+                        многоуровневая система контроля качества оказания медицинской помощи  </p></div>
 
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <a href="doctors.php?id=d2">
-                        <div class="vrachi_card">
-                            <img src="img/vrach_card/d2.jpg">
-                            <div class="social">
-                                <img src="img/vrach_card/ok.png">
-                                <img src="img/vrach_card/fb.png">
-                                <img src="img/vrach_card/vk.png">
-                            </div>
-                            <div class="vrach_text">
-                                <h6>Артеменко</h6>
-                                <h5>Александр Андреевич</h5>
-                                <p>Врач онко-дерматолог, консуль&shyтации , диагностика и лечение новообразований кожи,
-                                    дерма&shyтоскопия эксперт класса, малоинвазивная хирургия кожи, гистологическое
-                                    исследование кожи в онкологии...</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <a href="doctors.php?id=d4">
-                        <div class="vrachi_card">
-                            <img src="img/vrach_card/d4.jpg">
-                            <div class="social">
-                                <img src="img/vrach_card/ok.png">
-                                <img src="img/vrach_card/fb.png">
-                                <img src="img/vrach_card/vk.png">
-                            </div>
-                            <div class="vrach_text">
-                                <h6>Балашов</h6>
-                                <h5>Игорь Васильевич</h5>
-                                <p>Врач гинеколог, высшей категории, стаж работы 21 год, консультативный прием,
-                                    гине&shyкологический осмотр, цитологи&shyческое исследование, мазки и посевы на
-                                    флору, обследвание на ТОРЧ инфекции...</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                <div class="item"> <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                    <h4>ЧЕСТНО И ГУМАННО</h4>
+                    <p> наша основная задача – здоровье и благополучие наших клиентов;<br>
+                        осуществление благотворительной деятельности;<br>
+                        JMC не сотрудничает с фармацевтическими представителями.<br>
+                        В клинике ytn рекламы лекарственных препаратов<br>
+                    </p></div>
+                <div class="item"> <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                    <h4>УДОБНО И КОМФОРТНО</h4>
+                    <p>  работаем каждое воскресенье и все государственные праздники;<br>
+                        ведем прием пациентов до последнего клиента;<br>
+                        результаты лабораторных исследований выдаем сразу;<br>
+                        уделяем пациентам столько времени, сколько нужно;<br>
+                        наше обслуживание Вас приятно удивит.</p></div>
+
             </div>
         </div>
     </div>
 
-    <!--   Оборудование -->
-    <div class="Surgitron">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="Surgitron_text">
-                        <p>Хирурги нашей клиники проводят
-                            операции американским аппаратом
-                            «Surgitron ЕМС» Ellman International</p>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="Surgitron_button">
-                        <a href="blog.php">
-                            <button><b>Побробнее</b></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
+
+
+
+
+
+<!--______OWL________-->
     <!-- блог -->
     <div id="blog">
         <div class="container">
-            <h3 style="text-align: center"><span class="mark1h3"> последние </span> <b><span
-                            class="mark2h3"> статьи </span></b></h3>
-            <hr width="150px" align="center">
-            <p>На страницах блога вы можете ознакомиться с последними новостями и достижениями медицины, а так же узнать
-                новости и предложения нашей клиники</p>
+            <h3 style="text-align: center"><span class="mark1h3"> последние статьи </span></h3>
+            <p>Наш блог</p>
             <div class="row">
                 <div class="col-md-4">
                     <a href="blog.php#b1">
                         <div class="article">
-                            <img src="img/blog/b_2.jpg">
+                            <img src="img/blog/blog_img1.jpg">
                             <div class="blog_content">
                                 <p class="blog_data"> 5 сентября 2016г </p>
-                                <h5>«Золотой век» аппаратов лазерной эпиляции</h5>
-                                <p class="blog_text">Если ранее методы удаления волос были, большей частью, довольно
-                                    травматичными для кожи, то сейчас, когда современная косметология переживает свой
-                                    «золотой век», эта процедура уже может превратиться не в средневековую экзекуцию, а
-                                    в более безболезненную и приятную процедуру. Так что бритва или депилятор – это уже
-                                    «прошлый век»...
+                                <h5>JMC расширяет спектр услуг</h5>
+                                <p class="blog_text">С 7 марта в центре можно измерить внутриглазное давление самым комфортным и безопасным способом – с помощью бесконтактного тонометра.
                                 </p>
                             </div>
                         </div>
@@ -345,15 +304,11 @@ include "header.php"
                 <div class="col-md-4">
                     <a href="blog.php#b2">
                         <div class="article">
-                            <img src="img/blog/b_1.jpg">
+                            <img src="img/blog/blog_img2.jpg">
                             <div class="blog_content">
-                                <p class="blog_data"> 7 ноября 2016г </p>
-                                <h5>Американские технологии теперь в Украине</h5>
-                                <p class="blog_text">Несмотря на достигнутые успехи, сегодняшняя медицина продолжает
-                                    свое развитие, благодаря чему почти каждый год появляется всё более совершенное
-                                    медицинское оборудование. Естественно, и хирургия не остается в стороне от этого
-                                    процесса. Можно привести большое количество примеров, которые свидетельствуют о
-                                    достижениях хирургии...
+                                <p class="blog_data"> 19 февраля 2017г </p>
+                                <h5>Открытие нового офиса JMC</h5>
+                                <p class="blog_text">Стало известно, что открытие нового офиса Еврейского Медицинского Центра JMC в центре «Менора» запланировано на 19 февраля...
                                 </p>
                             </div>
                         </div>
@@ -362,14 +317,11 @@ include "header.php"
                 <div class="col-md-4">
                     <a href="blog.php#b3">
                         <div class="article">
-                            <img src="img/blog/b_3.jpg">
+                            <img src="img/blog/blog_img3.jpg">
                             <div class="blog_content">
                                 <p class="blog_data"> 29 ноября 2016г </p>
-                                <h5>Фракционный фототермолиз - новое слово в омоложении</h5>
-                                <p class="blog_text">Лазерный фототермолиз Фраксель (Fraxel) – это самая инновационная и
-                                    безопасная методика омоложения в современной аппаратной косметологии. Она позволяет
-                                    эффективно избавиться от косметических дефектов и возрастных изменений кожи.
-                                    Процедура осуществляется на базе революционной лазерной системы Fraxel SR1500....
+                                <h5>Вступлене в завет Авраама</h5>
+                                <p class="blog_text">Провел обрезание главный моэль Украины и Молдовы раввин Яков Гайсинович, которому ассистировал председатель правления, профессор Александр Родинский.....
                                 </p>
                             </div>
                         </div>
@@ -379,6 +331,73 @@ include "header.php"
 
         </div>
     </div>
+
+    <!--end- блог -->
+
+<!--___________достижения___________-->
+
+<div class="row"  id="track_record">
+    <div class="col-sm-6" >
+        <div class="track_record_meet_doctor">
+            <h5>Встречайте докторов</h5>
+            <h6>НАШИ СОТРУДНИКИ</h6>
+                <div class="col-sm-3">
+                    <div class="doctor_card">
+                        <img class="" src="img/vrach_card/avatar.png">
+                        <div class="doctor_info">
+                            <h4>Иванов Иван Иванович</h4>
+                            <h5>Гениколог</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="doctor_card">
+                        <img class="" src="img/vrach_card/avatar.png">
+                        <div class="doctor_info">
+                            <h4>Иванов Иван Иванович</h4>
+                            <h5>Гениколог</h5>
+                        </div>
+                    </div>
+                </div>
+
+        </div> <button type="submit" class="btn btn-default doctors_cart_button">Записаться</button>
+    </div>
+
+
+    <div class="col-sm-6" >
+        <div class="track_record_record">
+            <h5>Наши достижения</h5>
+            <h6>КАК МЫ ПОМОГАЕМ ЛЮДЯМ</h6>
+            <p>За пять лет своей работы уникальная программа еврейской общины Днепра – Медицинский центр JMC – добился значительных успехов, в частности, было проведено:</p>
+            <p class="track_record_line_text">Врачебных консультаций</p><p>10321</p>
+            <div class="line">
+                <div></div>
+                <div class="lineTwo l1"></div>
+            </div>
+            <p class="track_record_line_text">Функциональных исследований</p><p>3419</p>
+            <div class="line">
+                <div></div>
+                <div class="lineTwo l2"></div>
+            </div>
+            <p class="track_record_line_text ">Лабораторных исследований</p><p>17804</p>
+            <div class="line">
+                <div></div>
+                <div class="lineTwo l3"></div>
+            </div>
+            <p class="track_record_line_text">УЗИ-исследований</p><p>5672</p>
+            <div class="line">
+                <div></div>
+                <div class="lineTwo l4"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!--____end_______достижения___________-->
+
+
+
 
 <?php
 include "footer.php"

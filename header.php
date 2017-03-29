@@ -74,9 +74,9 @@
                             <li><a href="index.php">Главная</a></li>
                             <li><a href="directions.php?id=c">Направления</a>
                                 <ul>
-                                    <li><a href="directions.php?id=c1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Хирургия</a></li>
-                                    <li><a href="directions.php?id=c2" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Терапия</a></li>
-                                    <li><a href="directions.php?id=c3" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Гинекология</a></li>
+                                    <li><a href="directions.php?id=Хирургия" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Хирургия</a></li>
+                                    <li><a href="directions.php?id=Терапия" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Терапия</a></li>
+                                    <li><a href="directions.php?id=Гинекология" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Гинекология</a></li>
                                     <li><a href="directions.php?id=c4" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Эндокринология</a></li>
                                     <li><a href="directions.php?id=c5" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Профилактика</a></li>
                                     <li><a href="directions.php?id=c" style="font-weight: 600"><i class="ti-angle-right"></i>ЕЩЕ</a></li>

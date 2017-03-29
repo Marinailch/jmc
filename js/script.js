@@ -1561,15 +1561,36 @@
 
   });
 
-  /**END OWL*/
-  if($(document).scrollTop()>=$('#about').scrollTop()+100){
-      $(".dial").knob();
-      $({animatedVal: 0}).animate({animatedVal: 100}, {
-          duration: 2000,
-          easing: "swing",
-      step: function() {
-          $(".dial").val(Math.ceil(this.animatedVal)).trigger("change");
-      }
+  $(document).ready(function() {
+
+      $("#owl-demo2").owlCarousel({
+
+          autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+          items : 1,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [979,3]
+
+      });
+
   });
 
-  }
+
+
+  /**END OWL*/
+
+// ____track_record_
+
+
+      $(window).scroll(function(){
+          var offsset = $('.line').offset().top - 300;
+          var scroll = $(window).scrollTop()
+          if (scroll > offsset) {
+              $('.l1').css({width: '59%'})
+              $('.l2').css({width: '20%'})
+              $('.l3').css({width: '100%'})
+              $('.l4').css({width: '30%'})
+          }
+      })
+
+  // ________track_record end

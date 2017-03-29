@@ -18,6 +18,21 @@ body {
     display: none;
 }
 
+h3 {
+    font-size: 43px;
+    font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+    margin-top: 0;
+}
+
+
+
+.span mark1h3{
+
+}
+
+
+
+
 .no-js h1 {
     color: #222222;
 }
@@ -1302,30 +1317,28 @@ body {
 /*анимация круга со счетчиком*/
 .wrapper{
     width: 920px;
-    margin: 65px auto 0;
+    margin: 65px;
     /*overflow: hidden;*/
+}
+.wrapper img{
+    float: right;
 }
 
 .box{
     width: 200px;
-    margin-left: 80px;
+    /*margin-left: 20px;*/
     float: left;
 
 }
+.box input{
+    float: left;
+}
+
+
+
 /*анимация круга со счетчиком*/
-h3 {
-    font-size: 43px;
-    font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
-    margin-top: 0;
-}
 
-.mark1h3 {
-    color: #3d3d3d;
-}
 
-.mark2h3 {
-    color: #0ba5a3;
-}
 
 #about {
     padding: 0px 0px 0px 75px;
@@ -1354,16 +1367,113 @@ h3 {
     text-align: left;
 }
 
+.about_counter_el1{
+    color: #919191;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 78px;
+}
+
+.about_counter_el2{
+    color: #ffbe6b;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -117px;
+    margin-left: 150px;
+
+    font-size: 25px;
+}
+
+.about_counter_el3{
+    color: #919191;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 79px;
+}
+
+.about_counter_el4{
+    color: #919191;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -57px;
+    margin-left: 44px;
+}
 .solution {
     margin-top: -30px;
     margin-left: -78px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
+    float: right;
 }
+.dial{
+    margin-top: -142px !important;
+    margin-left: 42px !important;
+    font-size: 60px !important;
+}
+
+.about_item{
+    margin-top: 50px;
+}
+.about_item img{
+    width: 370px;
+}
+
+.about_item h2{
+    text-align: center;
+}
+
+.about_item h5{
+    text-align: center;
+    margin: 10px 2px 40px 2px;
+    font-family: sans-serif;
+    color: #f7a34a;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+
+.about_item .diraction_form_button {
+    font-size: 14px !important;
+    font-weight: 600;
+    color: #ffffff !important;
+    line-height: 39px !important;
+    /* display: inline-block; */
+    width: 152px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    background: #ffbe6b;
+    padding: 0px 0px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    border-color: #fff;
+    display: block;
+
+}
+
+
+
+.about_item h4{
+    font-size: 20px;
+    margin: 25px 10px 25px 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #5e5e5e;
+}
+.about_item p{
+    text-align: center;
+    color: #989898;
+}
+
+
+
 
 /*Запись на прием*/
 .order_bg {
-    background: #0ba5a3 url("img/bg_line.png") 0;
+    background: url("img/bg_consult.jpg") ;
     width: 100%;
     padding: 50px 0px;
     margin-top: 80px;
@@ -1376,41 +1486,6 @@ h3 {
 }
 
 .order_bg button {
-    margin-top: 8px;
-    border: #fff 2px solid;
-    color: #fff;
-    background-color: transparent;
-    padding: 15px 0px;
-    font-size: 16px;
-    margin: auto;
-    width: 250px
-}
-
-.order_bg button:hover {
-    color: #0ea5a3;
-    background-color: rgb(255, 255, 255);
-}
-
-.oreder_button {
-    margin: auto;
-    width: 250px;
-    margin-top: 15px;
-}
-
-.order_bg p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    text-align: left;
-}
-
-/*наша команда*/
-h3 {
-    font-size: 43px;
-    font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
-    margin-top: 0;
-}
-
-.doctors_cart_button{
     font-size: 16px;
     color: #ffffff;
     font-weight: 500;
@@ -1423,106 +1498,28 @@ h3 {
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
     border-radius: 30px;
-    border-color: #fff;
+    /*border-color: #fff;*/
 }
-.doctors_cart_button:hover{
+
+.order_bg button:hover {
     background-color: #c0d05b;
-    border-color: #fff;
+    /*border-color: #fff;*/
     color: #fff;
-
 }
 
 
-.mark1h3 {
-    color: #3d3d3d;
-}
 
-.mark2h3 {
-    color: #0ba5a3;
-}
-
-#team {
-    background-color: #dee0df;
-    overflow: hidden;
-}
-
-.team_text {
-    margin-top: 50px;
-    width: auto;
-    text-align: justify;
-
-}
-
-#team hr {
-    border: 2px solid;;
-    color: #0ba5a3;
-    margin-top: 10px;
-}
-
-.glav_vrach {
-    height: 446px;
-    margin-left: -280px;
-}
-
-.team_font {
-    margin-left: 70%;
-    margin-top: 25px;
-}
-
-/*Врачи*/
-#vrachi {
-    background-image: url("img/vrach_card/bg_img.png");
-}
-
-.vrachi_card {
-    width: 100%;
-    background-color: #fff;
-    margin: 65px auto;
-    overflow: hidden;
-}
-
-.social {
-    width: 180px;
-    margin: -30px auto auto auto;
-}
-
-.vrach_text h6 {
+.order_bg p {
     font-family: "Open Sans", sans-serif;
-    font-size: 21px !important;
+    font-size: 20px;
     text-align: left;
-    font-weight: 400 !important;
-    line-height: 0.5em;
 }
 
-.vrach_text h5 {
-    font-family: "Open Sans", serif;
-    font-size: 18px !important;
-    margin-bottom: 20px;
-    font-weight: 600 !important;
-    text-align: left;
-    line-height: 1em;
+
+.bg_doctor{
+    background-color: #ffff00;
+    background-image: url("img/bg_doc.jpg");
 }
-
-.vrachi p {
-    display: block;
-    width: 90%;
-    margin-bottom: 35px;
-    text-align: justify;
-}
-
-.vrachi_card img:only-of-type {
-    width: 100%;
-}
-
-.vrach_text {
-    margin: 30px 30px 40px;
-    text-align: justify;
-    font-size: 13px;
-    /*word-break: break-all;*/
-}
-
-/*Оборудование*/
-
 
 
 
@@ -1543,6 +1540,7 @@ h3 {
     margin-top: 80px;
     margin-bottom: 100px;
     padding: 20px;
+    background-image: url("img/bg_2.jpg");
 }
 
 #blog hr {
@@ -1608,89 +1606,53 @@ h3 {
 }
 
 #b4 .col-sm-6 strong {
-    margin-left: 20px !important;
+    margin-left: 20px !important;}
+
+/*_____#track_record_____*/
+
+
+.line{
+    position: relative;
+    width: 80%;
+    height: 20px;
+}
+.line div{
+    height: 8px;
+    /*position: absolute;*/
+}
+.line div:first-child{
+    background-color: #8d9944;
+    width: 100%;
+}
+.lineTwo{
+    background-color: #c0d05b;
+
+    margin-top: -8px;
+    transition: width 1s cubic-bezier(.42,.14,.46,.98);
+    -moz-transition: width 1s cubic-bezier(.42,.14,.46,.98);
+    -webkit-transition: width 1s cubic-bezier(.42,.14,.46,.98);
+    -o-transition: width 1s cubic-bezier(.42,.14,.46,.98);
 }
 
-/*#b4 .col-sm-6:nth-child(2) {
-max-width: 100%; 
-margin: 10px 20px 25px 0px;
-}*/
-
-/*карта*/
-#map {
-    background-color: #00afae;
-    height: 500px;
+.l1{
+    width: 10%;
 }
 
-#map iframe {
-    opacity: 0.8;
-    border: 0;
+.l2{
+    width: 10%;
 }
 
-.map_info {
-    display: block;
-    overflow: hidden;
-    background-color: #f36438;
-    width: 250px;
-    height: 500px;
-    opacity: 1;
-    position: absolute;
-    margin-top: -505px;
-    margin-left: 20%;
-    color: #fff;
-    padding: 33px;
-    font-family: "Open Sans", sans-serif;
-    line-height: 0.5em;
+.l3{
+    width: 10%;
 }
 
-.map_info span {
-    margin-right: 21px;
+.l4{
+    width: 10%;
 }
 
-.map_info h3 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    margin-top: 25px;
-    font-weight: 600;
-}
 
-.map_info p {
-    margin: auto;
-    width: 150px;
-}
+/*_end____#track_record_____*/
 
-#map h3:nth-child(even) {
-    margin: 33px 0px 25px 15px;
-}
-
-#map hr {
-    margin-top: 10px;
-    margin-bottom: 18px;
-    opacity: 0.1;
-    color: white;
-    border: 1px solid;
-}
-
-#map .social {
-    margin: auto;
-    width: 146px;
-    opacity: 0.5;
-    margin-top: 31px;
-}
-
-#hiden_map {
-    position: absolute;
-    margin-left: 185px;
-    margin-top: 218px;
-    display: none;
-}
-
-#show_map {
-    position: absolute;
-    margin-left: -14px;
-    margin-top: 211px;
-    display: none;
-}
 
 /*Доктор*/
 
@@ -1782,6 +1744,7 @@ margin: 10px 20px 25px 0px;
 .footer {
     border: 1px solid #dadada;
     padding: 70px 0px;
+    clear: both;
 }
 
 .footer_slogan {
@@ -2364,6 +2327,10 @@ background-color: #fff;
         margin-bottom: 60px;
     }
 
+    #team{
+
+    }
+
     .team_font {
         margin-left: 70%;
         margin-top: 20px;
@@ -2451,12 +2418,6 @@ background-color: #fff;
         margin-right: -230px;
     }
 
-    /*.vrachi_card {*/
-    /*height: 630px;*/
-    /*}*/
-    .bg_doctor {
-        overflow: hidden;
-    }
 
     .Copiright {
         display: none;
@@ -2534,6 +2495,9 @@ background-color: #fff;
         margin-bottom: 20px;
         padding: 0px;
     }
+
+
+
 
     .Surgitron_text {
         width: auto;
