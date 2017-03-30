@@ -24,14 +24,128 @@ h3 {
     margin-top: 0;
 }
 
+.button_o{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 60px !important;
+    display: inline-block;
+    min-width: 305px;
+    text-align: center;
+    background: #ffbe6b;
+    padding: 3px 7px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
 
 
-.span mark1h3{
+.button_o:hover{
+        background: #c0d05b !important;
+        color: #fff !important;
+}
 
+
+.button_w{
+    font-size: 16px;
+    color: #c0d05b;
+    font-weight: 500;
+    line-height: 60px !important;
+    display: inline-block;
+    min-width: 305px;
+    text-align: center;
+    background: #fff;
+    padding: 3px 7px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+
+.button_w:hover{
+    background:  #899442 !important;
+    color: #fff !important;
 }
 
 
 
+.markh1b{
+    font-family: "Montserrat",sans-serif !important;
+    font-size: 39px !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    line-height: 1.1111em !important;
+    text-decoration: none !important;
+    text-transform: none !important;
+    letter-spacing: -3px !important;
+    margin-top: 1.22em !important;
+    margin-bottom: 0.78em !important;
+    color: #414141;
+}
+
+.markh1w{
+    font-family: "Montserrat",sans-serif !important;
+    font-size: 39px !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    line-height: 1.1111em !important;
+    text-decoration: none !important;
+    text-transform: none !important;
+    letter-spacing: 0px !important;
+    margin-top: 1.22em !important;
+    margin-bottom: 0.78em !important;
+    color: #fff !important;
+}
+
+.markh2b{
+    font-family: sans-serif;
+    font-size: 3.571rem !important;
+    color: #414141;
+    font-weight: 600;
+    line-height: 1.0;
+}
+
+
+
+.markh2w{
+    font-family: sans-serif;
+    font-size: 3.571rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.0;
+}
+
+
+.markh4g{
+     font-family: sans-serif;
+     color: #899442;
+     font-size: 14px !important;
+     font-weight: 600;
+    text-transform: uppercase;
+ }
+
+.markh4o{
+    font-family: sans-serif;
+    color: #f7a34a;
+    font-size: 14px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.markh4b{
+    font-family: sans-serif;
+    color: #414141;
+    font-size: 14px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.markh4w{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 14px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 .no-js h1 {
     color: #222222;
@@ -1472,54 +1586,73 @@ h3 {
 
 
 /*Запись на прием*/
+
+.order_bg_in{
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
 .order_bg {
     background: url("img/bg_consult.jpg") ;
     width: 100%;
     padding: 50px 0px;
     margin-top: 80px;
-}
-
-.oreder_text {
-    width: 300px;
-    margin: auto;
-    color: white;
-}
-
-.order_bg button {
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 500;
-    line-height: 36px !important;
-    display: inline-block;
-    min-width: 134px;
     text-align: center;
-    background: #ffbe6b;
-    padding: 2px 5px;
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
-    border-radius: 30px;
-    /*border-color: #fff;*/
 }
-
-.order_bg button:hover {
-    background-color: #c0d05b;
-    /*border-color: #fff;*/
-    color: #fff;
-}
-
-
-
 .order_bg p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
+    }
+
+.order_bg a{
+    margin-top: 30px;
 }
 
 
-.bg_doctor{
-    background-color: #ffff00;
-    background-image: url("img/bg_doc.jpg");
+/*______________*/
+
+
+.tema_ul {
+    width: 300px;
+    border: none!important;
+    margin-top: 40px;
+    margin-bottom: 40px
 }
+
+
+.tema_ul *{
+    border: none!important;
+}
+
+#team{
+    padding: 50px 0px 80px 0px;
+}
+
+#owl-demo2{
+    margin: 50px 0px 20px 0px;
+}
+
+
+#owl-demo2 .item p{
+    text-transform: none;
+}
+
+    /*______________*/
+
+
+/*advantages*/
+
+
+.advantages{
+    background: #c0d05b;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    /*height: 300px;*/
+}
+
+/*advantages end*/
 
 
 
@@ -1537,10 +1670,11 @@ h3 {
 }
 
 #blog {
-    margin-top: 80px;
-    margin-bottom: 100px;
-    padding: 20px;
+    /*margin-top: 80px;*/
+    /*margin-bottom: 100px;*/
+    padding: 80px 0px 80px 0px;
     background-image: url("img/bg_2.jpg");
+
 }
 
 #blog hr {
@@ -1610,6 +1744,15 @@ h3 {
 
 /*_____#track_record_____*/
 
+.track_record_record{
+    background-image: url("img/bg_record.jpg");
+}
+.track_record_record_in{
+width: 80%;
+margin: auto;
+padding: 80px 0px 80px 0px;
+}
+
 
 .line{
     position: relative;
@@ -1625,7 +1768,7 @@ h3 {
     width: 100%;
 }
 .lineTwo{
-    background-color: #c0d05b;
+    background-color: #fff;
 
     margin-top: -8px;
     transition: width 1s cubic-bezier(.42,.14,.46,.98);
@@ -1651,7 +1794,33 @@ h3 {
 }
 
 
+
 /*_end____#track_record_____*/
+
+/*recommend*/
+#recommend{background: url("img/bg_recommend.jpg");
+
+}
+.dial1 {
+    margin-top: -142px !important;
+    margin-left: 42px !important;
+    font-size: 60px !important;
+}
+
+.recommend_record{
+    padding: 80px 0px 80px 0px;
+}
+
+
+#recommend canvas{
+    width: 350px !important;
+    height: 350px !important;
+}
+
+/*recommend end*/
+
+
+
 
 
 /*Доктор*/

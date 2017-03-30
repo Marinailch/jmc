@@ -121,8 +121,8 @@ include "header.php"
 
            <div class=" col-md-6">
                <div id="about">
-                    <h2> <b>Еврейский медицинский центр «JMC»</b></h2>
-                    <h5>ДОБРО ПОЖАЛОВАТЬ</h5>
+                    <p> <span class="markh2b">Еврейский медицинский центр «JMC»</span></p>
+                    <p> <span class="markh4o">ДОБРО ПОЖАЛОВАТЬ</span> </p>
                     <p>Мы многопрофильный, высококлассный медицинский центр, принципиально нового для Украины уровня и подхода к оказанию медицинских услуг, где наилучшим образом сочетаются новейшие технологии, самое современное и уникальное оборудование, высочайшая квалификация и интеллект врачей всех профилей, высокий сервис.</p>
                    <button type="submit" class="btn btn-default diraction_form_button">Подробнее</button>
                </div>
@@ -141,30 +141,35 @@ include "header.php"
                         <p class="about_counter_el4">Взаимоотношения</p>
                     </div>
                 </div>
-                            <script>
-                                $(".dial").knob();
-                                $({animatedVal: 0}).animate({animatedVal: 100}, {
-                                    duration: 2000,
-                                    easing: "swing",
-                                    step: function() {
-                                        $(".dial").val(Math.ceil(this.animatedVal)).trigger("change");
-                                    }
-                                });
-                            </script>
+
+                <script>
+                    $('.dial').knob();
+                    var control  =0;
+                    $(window).scroll(function(){
+                        var offsset = $('.dial').offset().top - 600;
+                        var scroll = $(window).scrollTop();
+                        if (scroll > offsset && control===0) {
+                            control++;
+                            $({animatedVal: 0}).animate({animatedVal: 100}, {
+                                duration: 2000,
+                                easing: "swing",
+                                step: function() {
+                                    $(".dial").val(Math.ceil(this.animatedVal)).trigger("change");
+//
+                                }
+                            });
+                        }
+                    })
+                </script>
             <img src="img/glav_vrach1.png" class="solution img-circle" alt="Cinque Terre" width="304" height="236"/>
             </div>
-
-
-
-
-
         </div>
         </div>
     </div>
 
 <div class="container about_item">
-    <h2> <b>О нашем центре</b></h2>
-    <h5>ДАВАЙТЕ ПОЗНАКОМИМСЯ!</h5>
+    <p> <span class="markh1b">О нашем центре</span></p>
+    <p><span class="markh4o">ДАВАЙТЕ ПОЗНАКОМИМСЯ!</span></p>
     <div class="row">
          <div class="col-sm-4"><img src="img/about/about3.jpg"><div class="about_item_text"><h4>Наши руководители </h4><p>Целями нашего центра являются оказание квалифицированной, качественной, адекватной состоянию здоровья пациента ...   </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
          <div class="col-sm-4"><img src="img/about/about2.jpg"><div class="about_item_text"><h4>О клинике         </h4><p>С открытием нового двухэтажного офиса JMC в центре «Менора» мы расширяем деятельность, в частности ...               </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
@@ -176,9 +181,11 @@ include "header.php"
     <!--  Запись на прием -->
 <div  class="order_bg">
     <div class="container">
-        <h2>получить консультацию врачей</h2>
-        <h5>УЗКОЙ СПЕЦИАЛИЗАЦИИ</h5>
-        <button type="submit" class="btn btn-default ">Записаться на приём</button>
+        <div class="order_bg_in">
+                <p><span class="markh1w">Получить консультацию врачей</span> </p>
+                <p><span class="markh4g">УЗКОЙ СПЕЦИАЛИЗАЦИИ</span> </p>
+                <a href="directions.php" class="button_w">Записаться на приём</a>
+        </div>
     </div>
 
 </div>
@@ -191,49 +198,74 @@ include "header.php"
                 <div class="col-md-3" style="float: right; "></div>
                 <div class=" col-md-9" style="float: left;">
                     <div class="team_text">
-                        <p><span class="mark1h3">Наши услуги </span></p>
-
+                        <p><span class="markh2b">Наши услуги </span></p>
+                        <p><span class="markh4o">ЧЕМ МЫ МОЖЕМ ПОМОЧЬ </span></p>
                         <div class="tema_ul">
 
 
                             <div class="panel-group" id="accordion">
+
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Консультации специалистов</a>
                                         </h4>
                                     </div>
-                                    <div id="collapse1" class="panel-collapse collapse in">
-                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                    <div id="collapse1" class="panel-collapse collapse">
+                                        <div class="panel-body">более 30 докторов узкой специализации</div>
                                     </div>
                                 </div>
+
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Инструментальная диагностика</a>
                                         </h4>
                                     </div>
                                     <div id="collapse2" class="panel-collapse collapse">
-                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                        <div class="panel-body">Самое современное оборудование</div>
                                     </div>
                                 </div>
+
+
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Лабораторные исследования</a>
                                         </h4>
                                     </div>
                                     <div id="collapse3" class="panel-collapse collapse">
-                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                        <div class="panel-body">Более 300 лабораторных анализов</div>
                                     </div>
                                 </div>
+
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Опиративное лечение</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse4" class="panel-collapse collapse">
+                                        <div class="panel-body">Одного дня</div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Дневной стационар</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse5" class="panel-collapse collapse">
+                                        <div class="panel-body"> Под наблюдением врача и опытной мед. сестры</div>
+                                    </div>
+                                </div>
+
+
+
                             </div>
+
 
 
                         </div>
@@ -246,25 +278,25 @@ include "header.php"
 
 <!--______OWL________-->
 
-    <div class="why_block">
+    <div class="advantages">
         <div class="container">
-            <h4>Наши преимущества</h4>
+            <p><span class="markh2b">Наши преимущества</span></p>
             <div id="owl-demo2">
                 <div class="item"> <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
-                    <h4>КАЧЕСТВЕННО И ВЫСОКОТЕХНОЛОГИЧНО</h4>
+                    <p><span class="markh4b">КАЧЕСТВЕННО И ВЫСОКОТЕХНОЛОГИЧНО</span></p>
                     <p>JMC гарантирует качество результатов диагностики и лечения;<br>
                         мы работаем на современном лабораторном и диагностическом оборудовании,<br>
                         многоуровневая система контроля качества оказания медицинской помощи  </p></div>
 
                 <div class="item"> <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
-                    <h4>ЧЕСТНО И ГУМАННО</h4>
+                    <p><span class="markh4b">ЧЕСТНО И ГУМАННО</span></p>
                     <p> наша основная задача – здоровье и благополучие наших клиентов;<br>
                         осуществление благотворительной деятельности;<br>
                         JMC не сотрудничает с фармацевтическими представителями.<br>
                         В клинике ytn рекламы лекарственных препаратов<br>
                     </p></div>
                 <div class="item"> <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
-                    <h4>УДОБНО И КОМФОРТНО</h4>
+                    <p><span class="markh4b">УДОБНО И КОМФОРТНО</span></p>
                     <p>  работаем каждое воскресенье и все государственные праздники;<br>
                         ведем прием пациентов до последнего клиента;<br>
                         результаты лабораторных исследований выдаем сразу;<br>
@@ -285,8 +317,8 @@ include "header.php"
     <!-- блог -->
     <div id="blog">
         <div class="container">
-            <h3 style="text-align: center"><span class="mark1h3"> последние статьи </span></h3>
-            <p>Наш блог</p>
+            <h3 style="text-align: center"><span class="markh1w">Последние статьи </span></h3>
+            <p><span class="markh4o">Наш блог</span></p>
             <div class="row">
                 <div class="col-md-4">
                     <a href="blog.php#b1">
@@ -294,7 +326,7 @@ include "header.php"
                             <img src="img/blog/blog_img1.jpg">
                             <div class="blog_content">
                                 <p class="blog_data"> 5 сентября 2016г </p>
-                                <h5>JMC расширяет спектр услуг</h5>
+                                <h5> JMC расширяет спектр услуг</h5>
                                 <p class="blog_text">С 7 марта в центре можно измерить внутриглазное давление самым комфортным и безопасным способом – с помощью бесконтактного тонометра.
                                 </p>
                             </div>
@@ -321,7 +353,7 @@ include "header.php"
                             <div class="blog_content">
                                 <p class="blog_data"> 29 ноября 2016г </p>
                                 <h5>Вступлене в завет Авраама</h5>
-                                <p class="blog_text">Провел обрезание главный моэль Украины и Молдовы раввин Яков Гайсинович, которому ассистировал председатель правления, профессор Александр Родинский.....
+                                <p class="blog_text">Провел обрезание главный моэль Украины и Молдовы раввин Яков Гайсинович, ассистировал председатель правления, профессор Александр Родинский.....
                                 </p>
                             </div>
                         </div>
@@ -337,10 +369,10 @@ include "header.php"
 <!--___________достижения___________-->
 
 <div class="row"  id="track_record">
-    <div class="col-sm-6" >
-        <div class="track_record_meet_doctor">
-            <h5>Встречайте докторов</h5>
-            <h6>НАШИ СОТРУДНИКИ</h6>
+    <div class="col-sm-6 track_record_meet_doctor" >
+        <div class="track_record_record_in">
+            <p> <span class="markh2b">Встречайте докторов</span> </p>
+            <p><span class="markh4o">НАШИ СОТРУДНИКИ</span> </p>
                 <div class="col-sm-3">
                     <div class="doctor_card">
                         <img class="" src="img/vrach_card/avatar.png">
@@ -364,27 +396,27 @@ include "header.php"
     </div>
 
 
-    <div class="col-sm-6" >
-        <div class="track_record_record">
-            <h5>Наши достижения</h5>
-            <h6>КАК МЫ ПОМОГАЕМ ЛЮДЯМ</h6>
+    <div class="col-sm-6 track_record_record" >
+        <div class="track_record_record_in">
+            <p><span class="markh2w">Наши достижения</span> </p>
+            <p><span class="markh4g">КАК МЫ ПОМОГАЕМ ЛЮДЯМ</span></p>
             <p>За пять лет своей работы уникальная программа еврейской общины Днепра – Медицинский центр JMC – добился значительных успехов, в частности, было проведено:</p>
-            <p class="track_record_line_text">Врачебных консультаций</p><p>10321</p>
+            <p ><span class="markh4w">Врачебных консультаций</span></p><p><span class="markh4w">10321</span></p>
             <div class="line">
                 <div></div>
                 <div class="lineTwo l1"></div>
             </div>
-            <p class="track_record_line_text">Функциональных исследований</p><p>3419</p>
+            <p ><span class="markh4w">Функциональных исследований</span></p><p><span class="markh4w">3419</span></p>
             <div class="line">
                 <div></div>
                 <div class="lineTwo l2"></div>
             </div>
-            <p class="track_record_line_text ">Лабораторных исследований</p><p>17804</p>
+            <p ><span class="markh4w">Лабораторных исследований</span></p><p><span class="markh4w">17804</span></p>
             <div class="line">
                 <div></div>
                 <div class="lineTwo l3"></div>
             </div>
-            <p class="track_record_line_text">УЗИ-исследований</p><p>5672</p>
+            <p ><span class="markh4w">УЗИ-исследований</span></p><p><span class="markh4w">5672</span></p>
             <div class="line">
                 <div></div>
                 <div class="lineTwo l4"></div>
@@ -395,6 +427,54 @@ include "header.php"
 
 
     <!--____end_______достижения___________-->
+
+<!--    recommend-->
+    <div class="row"  id="recommend">
+        <div class="col-sm-6 recommend_circle" >
+            <div class="wrapper">
+                <div class="box">
+                    <p><span class="about_counter_el1">НА ВСЕ</span></p>
+                    <input type="text" value="" class="dial1" data-readOnly="true" data-thickness="0.03" data-fgColor="#f7a34a" data-bgColor="#fff" data-width="300px" data-fontWeight="600" data-font="" >
+                    <p class="about_counter_el2">%</p>
+                    <p class="about_counter_el3">Честные</p>
+                    <p class="about_counter_el4">Взаимоотношения</p>
+                </div>
+            </div>
+
+            <script>
+                $('.dial1').knob();
+                var control1  =0;
+                $(window).scroll(function(){
+                    var offsset1 = $('.dial1').offset().top - 600;
+                    var scroll1 = $(window).scrollTop();
+                    if (scroll1 > offsset1 && control1===0) {
+                        control1++;
+                        $({animatedVal: 0}).animate({animatedVal: 100}, {
+                            duration: 2000,
+                            easing: "swing",
+                            step: function() {
+                                $(".dial1").val(Math.ceil(this.animatedVal)).trigger("change");
+//
+                            }
+                        });
+                    }
+                })
+            </script>
+
+
+        </div>
+
+
+        <div class="col-sm-6 recommend_record" >
+            <div class="recommend_in">
+                <p><span class="markh2w">Наши достижения</span> </p>
+                <p><span class="markh4o">КАК МЫ ПОМОГАЕМ ЛЮДЯМ</span> </p>
+                <p>За пять лет своей работы уникальная программа еврейской общины Днепра – Медицинский центр JMC – добился значительных успехов, в частности, было проведено:</p>
+                <button type="submit" class="btn btn-default doctors_cart_button">Записаться</button>
+
+            </div>
+        </div>
+    </div>
 
 
 
