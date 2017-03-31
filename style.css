@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,300);
 @import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
 body {
-    color: #451410;
+    /*color: #451410;*/
 }
 
 /* JavaScript Turned Off */
@@ -1882,15 +1882,21 @@ padding: 80px 0px 100px 0px;
 
 }
 .dial1 {
-    margin-top: -142px !important;
-    margin-left: 42px !important;
-    font-size: 60px !important;
+    margin-top: -136px !important;
+    margin-left: 311px !important;
+    font-size: 91px !important;
 }
 
 .recommend_record{
     padding: 180px 0px 180px 0px;
 }
 
+.recommend_record p{
+    width: 400px;
+    text-align: justify;
+    color: #fff;
+    margin-bottom: 30px;
+}
 
 #recommend canvas{
     width: 350px !important;
@@ -1899,8 +1905,49 @@ padding: 80px 0px 100px 0px;
 
 
 .track_record_record_text{
-    width: 300px;
+    width: 402px;
+    text-align: justify;
 }
+
+#recommend .about_counter_el2{
+    color: #fff !important;
+    margin-top: -217px;
+    margin-left: 437px;
+    font-size: 47px;
+}
+#recommend .about_counter_el3{
+    margin-top: -123px;
+    margin-left: 340px;
+}
+
+#recommend .about_counter_el4 {
+    color: #919191;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -104px;
+    margin-left: 308px;
+}
+
+#recommend .about_counter_el1 {
+    color: #919191;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 127px;
+    margin-left: 349px;
+}
+
+
+.dial1 {
+    left: 20px;
+    top:350px;
+
+}
+
+#recommend canvas{
+    margin-left: 100%;
+    margin-top: 41px;
+}
+
 
 /*recommend end*/
 

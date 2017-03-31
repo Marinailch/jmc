@@ -435,7 +435,7 @@ include "header.php"
             <div class="wrapper">
                 <div class="box">
                     <p><span class="about_counter_el1">НА ВСЕ</span></p>
-                    <input type="text" value="" class="dial1" data-readOnly="true" data-thickness="0.03" data-fgColor="#f7a34a" data-bgColor="#fff" data-width="300px" data-fontWeight="600" data-font="" >
+                    <input type="text" value="" class="dial1" data-readOnly="true" data-thickness="0.03" data-fgColor="#fff" data-bgColor="rgba(255, 255, 255, 0.1);" data-width="300px" data-fontWeight="600" data-font="" >
                     <p class="about_counter_el2">%</p>
                     <p class="about_counter_el3">Честные</p>
                     <p class="about_counter_el4">Взаимоотношения</p>
@@ -470,8 +470,8 @@ include "header.php"
             <div class="recommend_in">
                 <p><span class="markh2w">Наши достижения</span> </p>
                 <p><span class="markh4o">КАК МЫ ПОМОГАЕМ ЛЮДЯМ</span> </p>
-                <p>За пять лет своей работы уникальная программа еврейской общины Днепра – Медицинский центр JMC – добился значительных успехов, в частности, было проведено:</p>
-                <button type="submit" class="btn btn-default doctors_cart_button">Записаться</button>
+                <p>За пять лет своей работы уникальная программа еврейской общины Днепра – Медицинский центр JMC – добился значительных успехов</p>
+                <a href="directions.php" class="button_o hvr-radial-in">Узнать о нас больше</a>
 
             </div>
         </div>
