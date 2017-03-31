@@ -1,14 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,300);
 @import url(https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
-
-a {
-    text-decoration: none !important;
-}
-
-a:hover {
-    color: #9faf24 !important;
-}
-
 body {
     color: #451410;
 }
@@ -23,6 +14,37 @@ h3 {
     font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
     margin-top: 0;
 }
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #9faf24 !important;
+}
+
+
+.hvr-radial-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
+    background: #c0d05b!important;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 30px;
+}
+
+.hvr-radial-in:before {
+
+     background:#ffbe6b !important;
+}
+
+
 
 .button_o{
     font-size: 16px;
@@ -32,7 +54,7 @@ h3 {
     display: inline-block;
     min-width: 305px;
     text-align: center;
-    background: #ffbe6b;
+    background: #ffbe6b!important;
     padding: 3px 7px;
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -48,7 +70,7 @@ h3 {
 
 .button_w{
     font-size: 16px;
-    color: #c0d05b;
+    color: #99b100;
     font-weight: 500;
     line-height: 60px !important;
     display: inline-block;
@@ -67,7 +89,7 @@ h3 {
     color: #fff !important;
 }
 
-
+/*______headers___h1 h2 h3 h4________*/
 
 .markh1b{
     font-family: "Montserrat",sans-serif !important;
@@ -1637,6 +1659,7 @@ h3 {
 
 #owl-demo2 .item p{
     text-transform: none;
+    margin-bottom: 10px;
 }
 
     /*______________*/
@@ -1651,6 +1674,11 @@ h3 {
     padding: 50px 0px 50px 0px;
     /*height: 300px;*/
 }
+
+
+
+
+
 
 /*advantages end*/
 
@@ -1690,14 +1718,6 @@ h3 {
     margin: auto;
     width: 65%;
     line-height: 1.3em;
-}
-
-.mark1h3 {
-    color: #3d3d3d;
-}
-
-.mark2h3 {
-    color: #0ba5a3;
 }
 
 .article {
@@ -1747,11 +1767,71 @@ h3 {
 .track_record_record{
     background-image: url("img/bg_record.jpg");
 }
+
 .track_record_record_in{
 width: 80%;
 margin: auto;
-padding: 80px 0px 80px 0px;
+padding: 80px 0px 100px 0px;
 }
+#track_record .markh2b, #track_record .markh4o{
+    margin-left: 20px;
+}
+
+#track_record h4{
+    text-align: center;
+    font-size: 16px;
+    color: #5e5e5e;
+}
+
+#track_record h5{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8c8c8c;
+    margin-top: 10px;
+}
+
+
+/*.track_record_record_in:first-child{*/
+   /*float: right;*/
+/*}*/
+
+.track_record_record_text{
+    width: 80%;
+    color: #fff;
+}
+
+.track_record_record_in p{
+    margin-top: 30px;
+}
+
+.track_record_record_in a{
+    width: 80px;
+    left: 100px;
+    top: 50px;
+}
+
+.doctor_card1{
+    width: 97%;
+    line-height: 1.5em;
+    /*text-align: center;*/
+    margin-top: 30px;
+}
+
+.doctor_card1 img{
+    width: 100%;
+}
+
+
+
+.track_record_right{
+    float: right;
+    margin-bottom: -8px;
+    left: 120px;
+    width: 70%;
+
+}
+
 
 
 .line{
@@ -1808,13 +1888,18 @@ padding: 80px 0px 80px 0px;
 }
 
 .recommend_record{
-    padding: 80px 0px 80px 0px;
+    padding: 180px 0px 180px 0px;
 }
 
 
 #recommend canvas{
     width: 350px !important;
     height: 350px !important;
+}
+
+
+.track_record_record_text{
+    width: 300px;
 }
 
 /*recommend end*/

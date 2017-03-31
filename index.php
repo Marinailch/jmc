@@ -124,7 +124,7 @@ include "header.php"
                     <p> <span class="markh2b">Еврейский медицинский центр «JMC»</span></p>
                     <p> <span class="markh4o">ДОБРО ПОЖАЛОВАТЬ</span> </p>
                     <p>Мы многопрофильный, высококлассный медицинский центр, принципиально нового для Украины уровня и подхода к оказанию медицинских услуг, где наилучшим образом сочетаются новейшие технологии, самое современное и уникальное оборудование, высочайшая квалификация и интеллект врачей всех профилей, высокий сервис.</p>
-                   <button type="submit" class="btn btn-default diraction_form_button">Подробнее</button>
+                   <a href="" type="submit" class="btn btn-default diraction_form_button">Подробнее</a>
                </div>
            </div>
 
@@ -184,7 +184,7 @@ include "header.php"
         <div class="order_bg_in">
                 <p><span class="markh1w">Получить консультацию врачей</span> </p>
                 <p><span class="markh4g">УЗКОЙ СПЕЦИАЛИЗАЦИИ</span> </p>
-                <a href="directions.php" class="button_w">Записаться на приём</a>
+                <a href="directions.php" class="button_w hvr-radial-in">Записаться на приём</a>
         </div>
     </div>
 
@@ -370,53 +370,54 @@ include "header.php"
 
 <div class="row"  id="track_record">
     <div class="col-sm-6 track_record_meet_doctor" >
-        <div class="track_record_record_in">
+        <div class="track_record_record_in track_record_right">
             <p> <span class="markh2b">Встречайте докторов</span> </p>
             <p><span class="markh4o">НАШИ СОТРУДНИКИ</span> </p>
-                <div class="col-sm-3">
-                    <div class="doctor_card">
+                <div class="col-sm-5">
+                    <div class="doctor_card1">
                         <img class="" src="img/vrach_card/avatar.png">
-                        <div class="doctor_info">
-                            <h4>Иванов Иван Иванович</h4>
+                        <div class="doctor_info1">
                             <h5>Гениколог</h5>
+                            <h4>Иванов Иван Иванович</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="doctor_card">
+                <div class="col-sm-5">
+                    <div class="doctor_card1">
                         <img class="" src="img/vrach_card/avatar.png">
-                        <div class="doctor_info">
-                            <h4>Иванов Иван Иванович</h4>
+                        <div class="doctor_info1">
                             <h5>Гениколог</h5>
+                            <h4>Иванов Иван Иванович</h4>
                         </div>
                     </div>
                 </div>
+            <a href="directions.php" class="button_o hvr-radial-in">Записаться на приём</a>
+        </div>
 
-        </div> <button type="submit" class="btn btn-default doctors_cart_button">Записаться</button>
     </div>
 
 
     <div class="col-sm-6 track_record_record" >
-        <div class="track_record_record_in">
+        <div class="track_record_record_in ">
             <p><span class="markh2w">Наши достижения</span> </p>
             <p><span class="markh4g">КАК МЫ ПОМОГАЕМ ЛЮДЯМ</span></p>
-            <p>За пять лет своей работы уникальная программа еврейской общины Днепра – Медицинский центр JMC – добился значительных успехов, в частности, было проведено:</p>
-            <p ><span class="markh4w">Врачебных консультаций</span></p><p><span class="markh4w">10321</span></p>
+            <p class="track_record_record_text">За пять лет своей работы уникальная программа еврейской общины Днепра – Медицинский центр JMC – добился значительных успехов, в частности, было проведено:</p>
+            <p ><span class="markh4w">Врачебных консультаций</span><span class="markh4w" style="margin-left: 44%; margin-top: 30px">10321</span></p>
             <div class="line">
                 <div></div>
                 <div class="lineTwo l1"></div>
             </div>
-            <p ><span class="markh4w">Функциональных исследований</span></p><p><span class="markh4w">3419</span></p>
+            <p ><span class="markh4w">Функциональных исследований</span><span class="markh4w" style="margin-left: 36%; margin-top: 30px">3419</span></p>
             <div class="line">
                 <div></div>
                 <div class="lineTwo l2"></div>
             </div>
-            <p ><span class="markh4w">Лабораторных исследований</span></p><p><span class="markh4w">17804</span></p>
+            <p ><span class="markh4w">Лабораторных исследований</span><span class="markh4w" style="margin-left: 38%; margin-top: 30px">17804</span></p>
             <div class="line">
                 <div></div>
                 <div class="lineTwo l3"></div>
             </div>
-            <p ><span class="markh4w">УЗИ-исследований</span></p><p><span class="markh4w">5672</span></p>
+            <p ><span class="markh4w">УЗИ-исследований</span><span class="markh4w" style="margin-left: 52%; margin-top: 30px">5672</span></p>
             <div class="line">
                 <div></div>
                 <div class="lineTwo l4"></div>
