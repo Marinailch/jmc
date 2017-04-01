@@ -35,8 +35,9 @@ class DataBase
             return false;
         }
     }
+
     public function getDoctorsByDirection($id){
-        $query = "SELECT name_of_doctor, link_foto_doctor, expirience_of_work, specialty_of_doctor, science_degree, short_descr, full_descr, price_first_time, price_after FROM doctors, directions WHERE direction_id=directions.id and direction_id = '$id'";
+        $query = "SELECT name_of_doctor, link_foto_doctor, expirience_of_work, specialty_of_doctor, science_degree, short_descr, full_descr FROM doctors, directions WHERE direction_id=directions.id and direction_id = '$id'";
         $result = $this->db->query($query);
         if($result){
             $catalog = array();
@@ -50,3 +51,5 @@ class DataBase
 
 
 }
+
+
