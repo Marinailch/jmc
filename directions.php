@@ -49,7 +49,7 @@ var_dump($id);
                             <hr>
                             <div class="media">
                                 <div class="media-left">
-                                    <img src="img/vrach_card/<?php echo"$img";?>.jpg" class="media-object" style="width:150px">
+                                    <img src="img/vrach_card/<?php echo"$img";?>d1.jpg" class="media-object" style="width:150px">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="media-heading">Иванов Иван Иванович</h4>
