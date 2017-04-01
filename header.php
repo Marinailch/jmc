@@ -72,17 +72,7 @@
                     <nav class="mdc-main-menu">
                         <ul>
                             <li><a href="index.php">Главная</a></li>
-                            <li><a href="directions.php?id=c">консультации</a>
-                                <ul>
-                                    <li><a href="pages/directions/directions.php?id=Хирургия" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Хирург</a></li>
-                                    <li><a href="pages/directions/directions.php?id=Терапия" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Терапевт</a></li>
-                                    <li><a href="pages/directions/directions.php?id=Гинекология" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Гинеколог</a></li>
-                                    <li><a href="pages/directions/directions.php?id=Эндокринология" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Эндокринолог</a></li>
-                                    <li><a href="pages/directions/directions.php?id=Профилактика" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Профилактика</a></li>
-                                    <li><a href="pages/directions/directions.php?id=c" style="font-weight: 600; text-transform: uppercase;"><i class="ti-angle-right"></i>Весь список</a></li>
-                                </ul>
-                            </li>
-
+                            <li><a href="directions.php?id=c">Консультации</a></li>
                             <li><a href="diagnostics.php">Диагностика</a>
                                 <ul class="menu_item_plus">
                                     <li><a href="pages/diagnostics/uzi.php"          class="hvr-grow-shadow"><i class="ti-angle-right"></i>УЗИ</a></li>
