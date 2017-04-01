@@ -208,7 +208,9 @@ include "header.php"
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
+<!--                                            <button type="button" class="btn btn-lg btn-info collapsed circle_button" data-toggle="collapse" data-target="#collapse1"> </button>-->
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Консультации специалистов</a>
+
                                         </h4>
                                     </div>
                                     <div id="collapse1" class="panel-collapse collapse">
@@ -266,7 +268,7 @@ include "header.php"
 
                             </div>
 
-
+                            <button class="btn btn-orange btn-icon"><i class="fa fa-plus"></i></button>
 
                         </div>
 
