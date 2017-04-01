@@ -72,40 +72,37 @@
                     <nav class="mdc-main-menu">
                         <ul>
                             <li><a href="index.php">Главная</a></li>
-                            <li><a href="directions.php?id=c">Направления</a>
+                            <li><a href="directions.php?id=c">консультации</a>
                                 <ul>
-                                    <li><a href="directions.php?id=Хирургия" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Хирургия</a></li>
-                                    <li><a href="directions.php?id=Терапия" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Терапия</a></li>
-                                    <li><a href="directions.php?id=Гинекология" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Гинекология</a></li>
-                                    <li><a href="directions.php?id=c4" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Эндокринология</a></li>
-                                    <li><a href="directions.php?id=c5" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Профилактика</a></li>
-                                    <li><a href="directions.php?id=c" style="font-weight: 600"><i class="ti-angle-right"></i>ЕЩЕ</a></li>
+                                    <li><a href="pages/directions/directions.php?id=Хирургия" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Хирург</a></li>
+                                    <li><a href="pages/directions/directions.php?id=Терапия" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Терапевт</a></li>
+                                    <li><a href="pages/directions/directions.php?id=Гинекология" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Гинеколог</a></li>
+                                    <li><a href="pages/directions/directions.php?id=Эндокринология" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Эндокринолог</a></li>
+                                    <li><a href="pages/directions/directions.php?id=Профилактика" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Профилактика</a></li>
+                                    <li><a href="pages/directions/directions.php?id=c" style="font-weight: 600"><i class="ti-angle-right"></i>ЕЩЕ</a></li>
                                 </ul>
                             </li>
 
-                            <li><a href="servise.php">Диагностика</a>
+                            <li><a href="diagnostics.php">Диагностика</a>
                                 <ul class="menu_item_plus">
-                                    <li><a href="servise.php#ud1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>УЗИ</a>
+                                    <li><a href="pages/diagnostics/uzi.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>УЗИ</a>
                                         <ul class="sub_menu">
-                                            <li><a href="servise.php#ud1" class="hvr-grow-shadow"><i
-                                                            class="ti-angle-right"></i>Брюшной полости</a>
-                                            <li><a href="servise.php#ud2" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Щитовидной железы</a></li>
-                                            <li><a href="servise.php#ud3" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Молочных желёз</a></li>
-                                            <li><a href="servise.php#ud4" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Лимфатических узлов</a></li>
-                                            <li><a href="servise.php#ud5" class=""><i class="ti-angle-right"></i>ЕЩЕ</a>
+                                            <li><a href="pages/diagnostics/uzi.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Брюшной полости</a>
+                                            <li><a href="pages/diagnostics/uzi.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Щитовидной железы</a></li>
+                                            <li><a href="pages/diagnostics/uzi.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Молочных желёз</a></li>
+                                            <li><a href="pages/diagnostics/uzi.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Лимфатических узлов</a></li>
+                                            <li><a href="pages/diagnostics/uzi.php" class=""><i class="ti-angle-right"></i>ЕЩЕ</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="servise.php#um1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ЭХОКГ</a> </li>
-                                    <li><a href="servise.php#ug1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>ВГДС</a>  </li>
-                                    <li><a href="servise.php#uu1" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Колоноскопия</a> </li>
-                                    <li><a href="servise.php#ue1" class=""><i class="ti-angle-right"></i>ЕЩЕ</a></li>
+                                    <li><a href="pages/diagnostics/laboratory.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Лабораторная</a> </li>
+                                    <li><a href="pages/diagnostics/functional.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Функциональная</a>  </li>
+                                    <li><a href="pages/diagnostics/appar.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Аппаратная</a> </li>
+                                    <li><a href="pages/diagnostics/diagnostics.php" class=""><i class="ti-angle-right"></i>ЕЩЕ</a></li>
                                 </ul>
                             </li>
-
-                            <li><a href="laboratory.php">Лаборатория</a></li>
                             <li><a href="doctors.php">Врачи</a></li>
-                            <li><a href="blog.php">Блог</a> </li>
+                            <li><a href="blog.php">Новости</a> </li>
                             <li><a href="about.php">О Нас</a>
                                 <ul style="width:200px;">
                                     <li><a href="about.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>О клинике</a></li>

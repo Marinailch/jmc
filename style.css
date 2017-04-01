@@ -21,7 +21,24 @@ a {
 a:hover {
     color: #9faf24 !important;
 }
+/*____________*/
+/*.circle_button{*/
+    /*border-radius:50px !important;*/
+    /*background-color:#ffbe6b !important;*/
+/*}*/
 
+/*.btn:after {*/
+    /*font-family: "Glyphicons Halflings";*/
+    /*content: "\e114";*/
+    /*float: right;*/
+    /*margin-left: 10px;*/
+
+/*}*/
+/*!* Icon when the collapsible content is hidden *!*/
+/*.btn.collapsed:after {*/
+    /*content: "\e080";*/
+/*}*/
+/*______*/
 
 .hvr-radial-in {
     display: inline-block;
@@ -88,6 +105,60 @@ a:hover {
     background:  #899442 !important;
     color: #fff !important;
 }
+
+.example {
+    position: relative;
+    padding: 24px;
+    border-bottom: 1px solid #ddd;
+    margin:0 auto;
+    max-width: 620px;
+}
+.mt {
+    margin-top: 12px;
+}
+
+/*** Кнопки ***/
+
+.btn {
+    z-index: 2;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px;
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 36px;
+    -webkit-transition-property: box-shadow;
+    -moz-transition-property: box-shadow;
+    transition-property: box-shadow;
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    transition-duration: .5s;
+}
+.btn, .btn:hover, .btn:active, .btn:focus {
+    text-decoration: none;
+    outline: none;
+}
+.btn::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+.btn-flat.btn-orange,
+.btn-icon.btn-orange {
+    color: #ff9800;
+}
+
+
 
 /*______headers___h1 h2 h3 h4________*/
 
@@ -1632,7 +1703,9 @@ a:hover {
     margin-top: 30px;
 }
 
-
+.order_bg_in .hvr-radial-in:before {
+    background: #ffffff !important;
+}
 /*______________*/
 
 
@@ -1952,7 +2025,10 @@ padding: 80px 0px 100px 0px;
 /*recommend end*/
 
 
-
+.accord_in1{
+    margin-left: 20px;
+    color: red;
+}
 
 
 /*Доктор*/
