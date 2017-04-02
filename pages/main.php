@@ -6,7 +6,7 @@
                     <div class="sp-slides">
                         <div class="sp-slide mdc-slide-rgba">
                             <div class="sp-image-container">
-                                <img class="sp-image sp-image-bg" src="img/slider1.jpg" data-src="img/slider1.jpg"
+                                <img class="sp-image sp-image-bg" src="../img/slider1.jpg" data-src="img/slider1.jpg"
                                      data-retina="img/slider1.jpg" alt=""/></div>
                             <p class="sp-layer sp-txt-2" data-horizontal="20%" data-vertical="30%"
                                data-show-transition="right" data-show-delay="400" data-hide-delay="300"
@@ -19,12 +19,12 @@
                             <p class="sp-layer sp-txt-4 " data-horizontal="20%" data-vertical="50%"
                                data-position="topleft" data-show-transition="down" data-show-delay="1800"
                                data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a
-                                        href="doctors.php?id=d5" class="hvr-grow-shadow slider_button">Записаться на
+                                        href="../doctors.php?id=d5" class="hvr-grow-shadow slider_button">Записаться на
                                     приём</a></p>
                         </div>
                         <div class="sp-slide">
                             <div class="sp-image-container">
-                                <img class="sp-image sp-image-bg" src="img/slider1.jpg" data-src="img/slider1.jpg"
+                                <img class="sp-image sp-image-bg" src="../img/slider1.jpg" data-src="img/slider1.jpg"
                                      data-retina="img/slider1.jpg" alt=""/></div>
                             <p class="sp-layer sp-txt-2" data-horizontal="20%" data-vertical="30%"
                                data-show-transition="right" data-show-delay="400" data-hide-delay="300"
@@ -36,7 +36,7 @@
                             <p class="sp-layer sp-txt-4" data-horizontal="20%" data-vertical="50%"
                                data-position="topleft" data-show-transition="down" data-show-delay="1800"
                                data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a
-                                        href="doctors.php?id=d5">Записаться на приём</a></p>
+                                        href="../doctors.php?id=d5">Записаться на приём</a></p>
                         </div>
                     </div>
                 </div>
@@ -54,52 +54,52 @@
 
         <div id="owl-demo">
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Хирургия</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Терапия</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Педиатрия</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Гинекология<br>Акушерство</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Лабораторная диагностика</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Урология</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Дерматология</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Отоларингология</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Эндокринология</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Неврология</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Психиатрия Психотерапия</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Вакцинация</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>УЗИ санология</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Реабилитология</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Артопедия</p></div>
             <div class="item">
-                <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+                <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p>Эндоскопия</p></div>
         </div>
     </div>
@@ -151,7 +151,7 @@
                     }
                 })
             </script>
-            <img src="img/minora.png" class="solution " alt="Cinque Terre" width="304" height="236"/>
+            <img src="../img/minora.png" class="solution " alt="Cinque Terre" width="304" height="236"/>
         </div>
     </div>
 </div>
@@ -161,9 +161,9 @@
     <p> <span class="markh1b">О нашем центре</span></p>
     <p><span class="markh4o">ДАВАЙТЕ ПОЗНАКОМИМСЯ!</span></p>
     <div class="row">
-        <div class="col-sm-4"><img src="img/about/about3.jpg"><div class="about_item_text"><h4>Наши руководители </h4><p>Целями нашего центра являются оказание квалифицированной, качественной, адекватной состоянию здоровья пациента ...   </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
-        <div class="col-sm-4"><img src="img/about/about2.jpg"><div class="about_item_text"><h4>О клинике         </h4><p>С открытием нового двухэтажного офиса JMC в центре «Менора» мы расширяем деятельность, в частности ...               </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
-        <div class="col-sm-4"><img src="img/about/about1.jpg"><div class="about_item_text"><h4>Главний раввин    </h4><p>Начинается месяц Адар. Для еврейского народа это месяц Мазаль и Броха (успеха и благословения). Сказано в Талмуде ...</p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
+        <div class="col-sm-4"><img src="../img/about/about3.jpg"><div class="about_item_text"><h4>Наши руководители </h4><p>Целями нашего центра являются оказание квалифицированной, качественной, адекватной состоянию здоровья пациента ...   </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
+        <div class="col-sm-4"><img src="../img/about/about2.jpg"><div class="about_item_text"><h4>О клинике         </h4><p>С открытием нового двухэтажного офиса JMC в центре «Менора» мы расширяем деятельность, в частности ...               </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
+        <div class="col-sm-4"><img src="../img/about/about1.jpg"><div class="about_item_text"><h4>Главний раввин    </h4><p>Начинается месяц Адар. Для еврейского народа это месяц Мазаль и Броха (успеха и благословения). Сказано в Талмуде ...</p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
     </div>
 
 </div>
@@ -174,7 +174,7 @@
         <div class="order_bg_in">
             <p><span class="markh1w">Получить консультацию врачей</span> </p>
             <p><span class="markh4g">УЗКОЙ СПЕЦИАЛИЗАЦИИ</span> </p>
-            <a href="directions.php" class="button_w hvr-radial-in">Записаться на приём</a>
+            <a href="../directions.php" class="button_w hvr-radial-in">Записаться на приём</a>
         </div>
     </div>
 
@@ -182,7 +182,7 @@
 
 
 <!--  наша команда -->
-<div id="team" style="background-image: url(img/bg_doc.jpg);">
+<div id="team" style="background-image: url(../img/bg_doc.jpg);">
     <div class="container ">
         <div class="row">
             <div class="col-md-3" style="float: right; "></div>
@@ -274,20 +274,20 @@
     <div class="container">
         <p><span class="markh2b">Наши преимущества</span></p>
         <div id="owl-demo2">
-            <div class="item"> <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+            <div class="item"> <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p><span class="markh4b">КАЧЕСТВЕННО И ВЫСОКОТЕХНОЛОГИЧНО</span></p>
                 <p>JMC гарантирует качество результатов диагностики и лечения;<br>
                     мы работаем на современном лабораторном и диагностическом оборудовании,<br>
                     многоуровневая система контроля качества оказания медицинской помощи  </p></div>
 
-            <div class="item"> <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+            <div class="item"> <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p><span class="markh4b">ЧЕСТНО И ГУМАННО</span></p>
                 <p> наша основная задача – здоровье и благополучие наших клиентов;<br>
                     осуществление благотворительной деятельности;<br>
                     JMC не сотрудничает с фармацевтическими представителями.<br>
                     В клинике ytn рекламы лекарственных препаратов<br>
                 </p></div>
-            <div class="item"> <div class="circle"><img src="img/icon_diractions/owl1.png" alt="Owl Image"></div>
+            <div class="item"> <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p><span class="markh4b">УДОБНО И КОМФОРТНО</span></p>
                 <p>  работаем каждое воскресенье и все государственные праздники;<br>
                     ведем прием пациентов до последнего клиента;<br>
@@ -313,9 +313,9 @@
         <p><span class="markh4o">Наш блог</span></p>
         <div class="row">
             <div class="col-md-4">
-                <a href="blog.php#b1">
+                <a href="../blog.php#b1">
                     <div class="article">
-                        <img src="img/blog/blog_img1.jpg">
+                        <img src="../img/blog/blog_img1.jpg">
                         <div class="blog_content">
                             <p class="blog_data"> 5 сентября 2016г </p>
                             <h5> JMC расширяет спектр услуг</h5>
@@ -326,9 +326,9 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="blog.php#b2">
+                <a href="../blog.php#b2">
                     <div class="article">
-                        <img src="img/blog/blog_img2.jpg">
+                        <img src="../img/blog/blog_img2.jpg">
                         <div class="blog_content">
                             <p class="blog_data"> 19 февраля 2017г </p>
                             <h5>Открытие нового офиса JMC</h5>
@@ -339,9 +339,9 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="blog.php#b3">
+                <a href="../blog.php#b3">
                     <div class="article">
-                        <img src="img/blog/blog_img3.jpg">
+                        <img src="../img/blog/blog_img3.jpg">
                         <div class="blog_content">
                             <p class="blog_data"> 29 ноября 2016г </p>
                             <h5>Вступлене в завет Авраама</h5>
@@ -367,7 +367,7 @@
             <p><span class="markh4o">НАШИ СОТРУДНИКИ</span> </p>
             <div class="col-sm-5">
                 <div class="doctor_card1">
-                    <img class="" src="img/vrach_card/avatar.png">
+                    <img class="" src="../img/vrach_card/avatar.png">
                     <div class="doctor_info1">
                         <h5>Гениколог</h5>
                         <h4>Иванов Иван Иванович</h4>
@@ -376,14 +376,14 @@
             </div>
             <div class="col-sm-5">
                 <div class="doctor_card1">
-                    <img class="" src="img/vrach_card/avatar.png">
+                    <img class="" src="../img/vrach_card/avatar.png">
                     <div class="doctor_info1">
                         <h5>Гениколог</h5>
                         <h4>Иванов Иван Иванович</h4>
                     </div>
                 </div>
             </div>
-            <a href="directions.php" class="button_o hvr-radial-in">Записаться на приём</a>
+            <a href="../directions.php" class="button_o hvr-radial-in">Записаться на приём</a>
         </div>
 
     </div>
@@ -463,7 +463,7 @@
             <p><span class="markh2w">Наши достижения</span> </p>
             <p><span class="markh4o">КАК МЫ ПОМОГАЕМ ЛЮДЯМ</span> </p>
             <p>За пять лет своей работы уникальная программа еврейской общины Днепра – Медицинский центр JMC – добился значительных успехов</p>
-            <a href="directions.php" class="button_o hvr-radial-in">Узнать о нас больше</a>
+            <a href="../directions.php" class="button_o hvr-radial-in">Узнать о нас больше</a>
 
         </div>
     </div>

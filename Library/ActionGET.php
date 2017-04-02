@@ -35,5 +35,16 @@ class ActionGET extends DataBase
 
     }
 
+    public function getMain(){
+
+        $id = filter_input(INPUT_GET, 'page');
+
+        if(!$id){
+            return 'pages/main.php';
+        }
+        return FALSE;
+
+    }
+
 
 }
