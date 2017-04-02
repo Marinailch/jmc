@@ -17,18 +17,129 @@ if (isset($_GET['id'])) {
 
 
         <div class="row">
-            <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div>
-            <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div>
-            <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div>
-            <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div></a>
-                <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div>
-                    <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div>
-                        <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div>
-                            <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div></a>
-                            <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div>
-                                <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div>
-                                    <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div>
-                                        <a class="" href=""><div class="col-sm-3"><div class="doctor_card"><img class="" src="img/vrach_card/avatar.png"><div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5><button type="submit" class="btn btn-default doctors_cart_button">Записаться</button></div> </div> </div></a>
+            <a class="" href="">
+                <div class="col-sm-3">
+                    <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                        <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                            <button type="submit" class="btn btn-default doctors_cart_button">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+                <a class="" href="">
+                    <div class="col-sm-3">
+                        <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                            <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                                <button type="submit" class="btn btn-default doctors_cart_button">Записаться</button>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="" href="">
+                        <div class="col-sm-3">
+                            <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                                <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                                    <button type="submit" class="btn btn-default doctors_cart_button">Записаться
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="" href="">
+                            <div class="col-sm-3">
+                                <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                                    <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                                        <button type="submit" class="btn btn-default doctors_cart_button">Записаться
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="" href="">
+                            <div class="col-sm-3">
+                                <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                                    <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                                        <button type="submit" class="btn btn-default doctors_cart_button">Записаться
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="" href="">
+                                <div class="col-sm-3">
+                                    <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                                        <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                                            <button type="submit" class="btn btn-default doctors_cart_button">
+                                                Записаться
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="" href="">
+                                    <div class="col-sm-3">
+                                        <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                                            <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                                                <button type="submit" class="btn btn-default doctors_cart_button">
+                                                    Записаться
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="" href="">
+                                        <div class="col-sm-3">
+                                            <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                                                <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                                                    <button type="submit" class="btn btn-default doctors_cart_button">
+                                                        Записаться
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="" href="">
+                                        <div class="col-sm-3">
+                                            <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                                                <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                                                    <button type="submit" class="btn btn-default doctors_cart_button">
+                                                        Записаться
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="" href="">
+                                            <div class="col-sm-3">
+                                                <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
+                                                    <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>
+                                                            Гинеколог</h5>
+                                                        <button type="submit"
+                                                                class="btn btn-default doctors_cart_button">Записаться
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="" href="">
+                                                <div class="col-sm-3">
+                                                    <div class="doctor_card"><img class=""
+                                                                                  src="img/vrach_card/avatar.png">
+                                                        <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>
+                                                                Гинеколог</h5>
+                                                            <button type="submit"
+                                                                    class="btn btn-default doctors_cart_button">
+                                                                Записаться
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="" href="">
+                                                    <div class="col-sm-3">
+                                                        <div class="doctor_card"><img class=""
+                                                                                      src="img/vrach_card/avatar.png">
+                                                            <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>
+                                                                    Гинеколог</h5>
+                                                                <button type="submit"
+                                                                        class="btn btn-default doctors_cart_button">
+                                                                    Записаться
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
 
         </div>
 
