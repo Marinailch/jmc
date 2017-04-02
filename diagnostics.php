@@ -24,16 +24,12 @@ var_dump($id);
                 <div class="col-sm-4">
                     <div class="directions_menu">
                         <div class="doctor_info">
-
                             <ul style="list-style-type: none; padding-left: 0; margin-top: 50px; text-align: left;">
-
                                 <li class="hvr-grow-shadow"><a href="pages/diagnostics/uzi.php" class="directions_button">УЗИ</a></li>
                                 <li class="hvr-grow-shadow"><a href="pages/diagnostics/laboratory.php" class="directions_button">Лабораторная диагностика</a></li>
                                 <li class="hvr-grow-shadow"><a href="pages/diagnostics/functional.php" class="directions_button">Функциональная диагностика</a></li>
                                 <li class="hvr-grow-shadow"><a href="pages/diagnostics/appar.php" class="directions_button">Аппаратная диагностика</a></li>
-
                             </ul>
-
                         </div>
                     </div>
                 </div>

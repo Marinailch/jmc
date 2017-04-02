@@ -161,7 +161,7 @@ include "header.php"
                         }
                     })
                 </script>
-            <img src="img/glav_vrach1.png" class="solution img-circle" alt="Cinque Terre" width="304" height="236"/>
+            <img src="img/minora.png" class="solution " alt="Cinque Terre" width="304" height="236"/>
             </div>
         </div>
         </div>
@@ -437,7 +437,7 @@ include "header.php"
             <div class="wrapper">
                 <div class="box">
                     <p><span class="about_counter_el1">НА ВСЕ</span></p>
-                    <input type="text" value="" class="dial1" data-readOnly="true" data-thickness="0.03" data-fgColor="#fff" data-bgColor="rgba(255, 255, 255, 0.1);" data-width="300px" data-fontWeight="600" data-font="" >
+                    <input type="text" value="" class="dial1" data-readOnly="true" data-thickness="0.03" data-fgColor="#fff" data-bgColor="#4c463a" data-width="300px" data-fontWeight="600" data-font="" >
                     <p class="about_counter_el2">%</p>
                     <p class="about_counter_el3">Честные</p>
                     <p class="about_counter_el4">Взаимоотношения</p>

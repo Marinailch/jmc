@@ -1608,12 +1608,15 @@ a:hover {
     margin-left: 44px;
 }
 .solution {
-    margin-top: -30px;
-    margin-left: -78px;
-    width: 300px;
+    /* margin-top: -30px; */
+    margin-left: -205px;
+    width: 493px;
     height: 300px;
-    float: right;
+    /* float: right; */
 }
+
+
+
 .dial{
     margin-top: -142px !important;
     margin-left: 42px !important;
