@@ -4,6 +4,7 @@ include_once "header.php";
 include_once 'Config/config.php';
 $doctors = new Doctors($db);
 $doctors = $doctors->getDoctorsShort();
+var_dump($doctors);
 
 ?>
     <div class="directions_header">
@@ -16,15 +17,20 @@ $doctors = $doctors->getDoctorsShort();
 
             <!-- Это карточка одного доктора-->
 
-            <a class="" href="">
+
+<?php foreach($doctors as $key=>$value):?>
+
                 <div class="col-sm-3">
-                    <div class="doctor_card"><img class="" src="img/vrach_card/avatar.png">
-                        <div class="doctor_info"><h4>Иванов Иван Иванович</h4><h5>Гинеколог</h5>
+                    <div class="doctor_card"><a class="" href=""><img class="" src="img/doctors_foto/<?= $value['link_foto_doctor']?>"></a>
+                        <div class="doctor_info">
+                            <h5><?= $value['specialty_of_doctor']?></h5>
+                            <h4><?= $value['name_of_doctor']?></h4>
+                            <h6><?= $value['science_degree']?></h6>
                             <button type="submit" class="btn btn-default doctors_cart_button">Записаться</button>
                         </div>
                     </div>
                 </div>
-            </a>
+<?endforeach; ?>
 
             <!-- Это конец карточки доктора-->
 
