@@ -207,7 +207,31 @@ $res = $directions->getDirections();
                     <td><?=$value['price_first_time'] ?></td>
                     <td><?=$value['price_after'] ?></td>
                 </tr>
+<<<<<<< .mine
                 <?php endforeach; ?>
+
+
+
+
+
+
+
+
+
+
+=======
+<!--      --><?php //endforeach;?><!--          -->
+
+                <tr>
+                    <td >Гинеколога <small> вызов врача на дом - 550 грн</small></td>
+                    <td >320 грн</td>
+                    <td >220 грн</td>
+                </tr>
+
+
+
+                </tbody>
+>>>>>>> .theirs
             </table>
             </div>
             <div class="col-sm-8 text-doc">
