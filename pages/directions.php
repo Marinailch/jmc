@@ -189,6 +189,7 @@ var_dump($price2);
                     <td >320 грн</td>
                     <td >220 грн</td>
                 </tr>
+<!--      --><?php //endforeach;?><!--          -->
 
                 <tr>
                     <td >Гинеколога</td>
@@ -196,7 +197,7 @@ var_dump($price2);
                     <td >220 грн</td>
                 </tr>
 
-<!--      --><?php //endforeach;?><!--          -->
+
 
                 </tbody>
             </table>
