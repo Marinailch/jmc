@@ -19,13 +19,23 @@ class ActionGET extends DataBase
         $this->directions = new Directions($db);
         $this->doctors = new Doctors($db);
     }
+    /**
+     * Проверяем просто наличие или отсутствие GET запроса
+     */
+    public function getReqByGet(){
+        $id = filter_input(INPUT_GET, 'id');
+        if(!$id){
+            return FALSE;
+        }
+        return TRUE;
+    }
 
     /**
      * @return bool|mixed
      * Проверяем GET запрос на странице направлений
      * Возвращаем массив с нажатым направлением
      */
-    public function getGET(){
+     public function getGET(){
 
         $res = $this->directions->getDirections();
 
@@ -36,7 +46,9 @@ class ActionGET extends DataBase
                 return $id;
             }
         }
-        return FALSE;
+        $id = $this->directions->getMainPage();
+        return $id;
+
 
     }
     /**
@@ -52,6 +64,8 @@ class ActionGET extends DataBase
             return 'main.php';
         }else if($id=='directions'){
             return 'pages/directions.php';
+        }else if($id=='diagnostics'){
+            return 'pages/diagnostics.php';
         }
         return FALSE;
 
