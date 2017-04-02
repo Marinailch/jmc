@@ -2,7 +2,7 @@
 include_once 'Config/config.php';
 include_once "header.php";
 
-$foo = new DataBase($db);
+$foo = new Directions($db);
 $res = $foo->getDirections();
 
 $id = filter_input(INPUT_GET, 'id');
