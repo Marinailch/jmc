@@ -72,9 +72,9 @@
 ">
                     <nav class="mdc-main-menu">
                         <ul>
-                            <li><a href="index.php">Главная</a></li>
-                            <li><a href="directions.php?id=c">Консультации</a></li>
-                            <li><a href="diagnostics.php">Диагностика</a>
+                            <li><a href="/index.php">Главная</a></li>
+                            <li><a href="index.php?page=directions">Консультации</a></li>
+                            <li><a href="/diagnostics.php">Диагностика</a>
                                 <ul class="menu_item_plus">
                                     <li><a href="pages/diagnostics/uzi.php"          class="hvr-grow-shadow"><i class="ti-angle-right"></i>УЗИ</a></li>
                                     <li><a href="laboratory.php"                     class="hvr-grow-shadow"><i class="ti-angle-right"></i>Лабораторная</a> </li>

@@ -2,9 +2,15 @@
 
 include_once 'Config/config.php';
 
-$foo = new Directions($db);
-$res = $foo->getDirections();
+
+$doctors = new Doctors($db);
 $request = new ActionGET($db);
+$directions = new Directions($db);
+
+
+$res = $directions->getDirections();
+
+
 //var_dump($res);
 
 include_once "header.php";

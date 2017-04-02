@@ -1,19 +1,13 @@
 <?php
-include_once 'Config/config.php';
-include_once "header.php";
-$directions = new Directions($db);
-$doctors = new Doctors($db);
-$request = new ActionGET($db);
+
+
+//Получаем ГЕТ запрос
 $id = $request->getGET();
+
+//Получаем все направления
 $res = $directions->getDirections();
-//$id = filter_input(INPUT_GET, 'id');
-//foreach ($res as $key=>$value){
-//    if ($id == $value['name_of_direction']){
-//        $id = $res[$key];
-//        break;
-//    }
-//}
-var_dump($id);
+
+//var_dump($id);
 ?>
     <div class="directions_header">
         <p>Функциональные направления</p>
@@ -27,7 +21,7 @@ var_dump($id);
                         <ul style="list-style-type: none;padding-left: 0;margin-top: 10px;">
                             <?php foreach ($res as $item => $value): ?>
                                 <li class="hvr-grow-shadow"><a
-                                            href="directions.php?id=<?= $value['name_of_direction'] ?>"
+                                            href="/index.php?page=directions&id=<?= $value['name_of_direction'] ?>"
                                             class="directions_button"><?= $value['name_of_direction'] ?></a></li>
                             <?php endforeach; ?>
                         </ul>
