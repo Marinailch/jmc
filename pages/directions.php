@@ -56,7 +56,7 @@ $res = $directions->getDirections();
                     <hr>
                     <div class="media">
                         <div class="media-left">
-                            <img src="img/vrach_card/<?php echo "link_foto_doctor"; ?>" class="media-object"
+                            <img src="../img/vrach_card/d1.jpg" class="media-object"
                                  style="width:150px">
                         </div>
                         <div class="media-body">
@@ -166,14 +166,51 @@ var_dump($price2);
 
 
 
+     Это конец
+
+<?php endif ?> </div>
 
 
-    <!-- Это конец-->
 
-<?php endif ?>
+            <table class="table diractions_service">
+                <thead>
+                <tr>
+                    <td><h4><b>Консультативный приём</b></h4></td>
+                    <td><h4><b>Первичный</b></h4></td>
+                    <td><h4><b>Вторичный</b></h4></td>
+                </tr>
+                </thead>
+                <tbody>
 
-        </div>
-        <div class="diraction_form">
+<!--          --><?php //foreach ($res as $item => $value): ?>
+
+                <tr>
+                    <td >Гинеколога</td>
+                    <td >320 грн</td>
+                    <td >220 грн</td>
+                </tr>
+
+                <tr>
+                    <td >Гинеколога</td>
+                    <td >320 грн</td>
+                    <td >220 грн</td>
+                </tr>
+
+<!--      --><?php //endforeach;?><!--          -->
+
+                </tbody>
+            </table>
+
+
+
+
+
+<!--    ____________________       -->
+
+
+
+
+<div class="diraction_form">
             <h2>Запишитесь на приём!</h2>
             <form class="form-horizontal ">
 
