@@ -150,56 +150,81 @@ $res = $directions->getDirections();
             <hr>
             <div><?= $id[0]['descr_main'] ?></div>
             <hr>
+        </nav>
+    </div>
             <!-- Теперь получаем прайс всех консультаций-->
-<?php
 
-$price1 = $price->getPriceMain();
-$price2 = $price->getPriceMainWithHome();
-var_dump($price1);
-var_dump($price2);
-
-
-?>
+<?php endif ?>
 
 
 
+<!--            <table class="table diractions_service">-->
+<!--                <thead>-->
+<!--                <tr>-->
+<!--                    <td><h4><b>Консультативный приём</b></h4></td>-->
+<!--                    <td><h4><b>Первичный</b></h4></td>-->
+<!--                    <td><h4><b>Вторичный</b></h4></td>-->
+<!--                </tr>-->
+<!--                </thead>-->
+<!--                <tbody>-->
+<!---->
+<!--<!--          --><?php ////foreach ($res as $item => $value): ?>
+<!---->
+<!--                <tr>-->
+<!--                    <td >Гинеколога</td>-->
+<!--                    <td >320 грн</td>-->
+<!--                    <td >220 грн</td>-->
+<!--                </tr>-->
+<!---->
+<!--                <tr>-->
+<!--                    <td >Гинеколога</td>-->
+<!--                    <td >320 грн</td>-->
+<!--                    <td >220 грн</td>-->
+<!--                </tr>-->
+<!---->
+<!--<!--      --><?php ////endforeach;?><!--<!--          -->
+<!---->
+<!--                </tbody>-->
+<!--            </table>-->
+            <?php
 
-
-
-     Это конец
-
-<?php endif ?> </div>
-
-
-
-            <table class="table diractions_service">
-                <thead>
+            $price1 = $price->getPriceMain();
+            $price2 = $price->getPriceMainWithHome();
+//            var_dump($price1);
+//            var_dump($price2);
+            ?>
+            <div class="col-sm-8 text-doc">
+            <table class="table_price">
+                <caption>Прайс лист на Услуги</caption>
                 <tr>
-                    <td><h4><b>Консультативный приём</b></h4></td>
-                    <td><h4><b>Первичный</b></h4></td>
-                    <td><h4><b>Вторичный</b></h4></td>
+                    <th>Направление</th>
+                    <th>Цена за 1 посещение</th>
+                    <th>Цена за последующее посещение</th>
                 </tr>
-                </thead>
-                <tbody>
-
-<!--          --><?php //foreach ($res as $item => $value): ?>
-
+                <?php foreach ($price1 as $key=>$value):?>
                 <tr>
-                    <td >Гинеколога</td>
-                    <td >320 грн</td>
-                    <td >220 грн</td>
+                    <td><?=$value['specialty'] ?></td>
+                    <td><?=$value['price_first_time'] ?></td>
+                    <td><?=$value['price_after'] ?></td>
                 </tr>
-
-                <tr>
-                    <td >Гинеколога</td>
-                    <td >320 грн</td>
-                    <td >220 грн</td>
-                </tr>
-
-<!--      --><?php //endforeach;?><!--          -->
-
-                </tbody>
+                <?php endforeach; ?>
             </table>
+            </div>
+            <div class="col-sm-8 text-doc">
+                <table class="table_price">
+                    <caption>Прайс лист на Услуги</caption>
+                    <tr>
+                        <th>Направление</th>
+                        <th>Цена с выездом на дом</th>
+                    </tr>
+                    <?php foreach ($price2 as $key=>$value):?>
+                        <tr>
+                            <td><?=$value['specialty'] ?></td>
+                            <td><?=$value['consulting_at_home'] ?></td>
+                        </tr>
+                    <?php endforeach; ?>
+                </table>
+            </div>
 
 
 
