@@ -2,8 +2,10 @@
 include_once 'Config/config.php';
 include_once "header.php";
 
-$foo = new DataBase($db);
-$res = $foo->getDirections();
+$directions = new Directions($db);
+$doctors = new Doctors($db);
+
+$res = $directions->getDirections();
 
 $id = filter_input(INPUT_GET, 'id');
 foreach ($res as $key=>$value){
@@ -41,7 +43,7 @@ var_dump($id);
                             <!-- ЭТО ОПИСАНИЕ НАПРАВЛЕНИЯ-->
                             <?php
                             echo $id['description_direction'];
-                            $doctors = $foo->getDoctorsByDirection($id['id']);
+                            $doctors = $doctors->getDoctorsByDirection($id['id']);
                             var_dump($doctors);
                             ?>
 

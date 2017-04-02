@@ -13,6 +13,7 @@
     <script src="js/jquery.knob.min.js"></script>
     <link rel="stylesheet" href="css/slider-pro.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles2.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet'
           type='text/css'>
@@ -96,6 +97,47 @@
             </div>
         </div>
     </div>
+    <!-- MENU -->
+
+    <div id="main">
+
+        <ul id="navigationMenu">
+            <li>
+                <a class="home" href="#">
+                    <span>Главная</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="about" href="#">
+                    <span>Консультации</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="services" href="#">
+                    <span>Диагностика</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="portfolio" href="#">
+                    <span>Врачи</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="contact" href="#">
+                    <span>О нас</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+    <!-- MENU2 -->
 </header>
 
 

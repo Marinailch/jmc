@@ -2,12 +2,13 @@
 
 include_once 'Config/config.php';
 
-$foo = new DataBase($db);
+$foo = new Directions($db);
 $res = $foo->getDirections();
 //var_dump($res);
 
 include "header.php"
 ?>
+
     <div class="main-content">
         <section class="mdc-area mdc-area-nospace">
             <div class="widget mdc-widget-slider-01">
