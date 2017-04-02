@@ -76,8 +76,8 @@
                             <li><a href="/index.php?page=directions">Консультации</a></li>
                             <li><a href="/index.php?page=diagnostics">Диагностика</a>
                                 <ul class="menu_item_plus">
-                                    <li><a href="pages/diagnostics/uzi.php"          class="hvr-grow-shadow"><i class="ti-angle-right"></i>УЗИ</a></li>
-                                    <li><a href="laboratory.php"                     class="hvr-grow-shadow"><i class="ti-angle-right"></i>Лабораторная</a> </li>
+                                    <li><a href="pages/diagnostics/uzi.php"        class="hvr-grow-shadow"><i class="ti-angle-right"></i>УЗИ</a></li>
+                                    <li><a href="laboratory.php"                   class="hvr-grow-shadow"><i class="ti-angle-right"></i>Лабораторная</a> </li>
                                     <li><a href="pages/diagnostics/functional.php" class="hvr-grow-shadow"><i class="ti-angle-right"></i>Функциональная</a>  </li>
                                 </ul>
                             </li>

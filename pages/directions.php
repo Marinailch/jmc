@@ -151,56 +151,79 @@ $res = $directions->getDirections();
             <div><?= $id[0]['descr_main'] ?></div>
             <hr>
             <!-- Теперь получаем прайс всех консультаций-->
-<?php
-
-$price1 = $price->getPriceMain();
-$price2 = $price->getPriceMainWithHome();
-var_dump($price1);
-var_dump($price2);
-
-
-?>
 
 
 
 
 
 
-     Это конец
-
-<?php endif ?> </div>
 
 
+<?php endif ?>
+            <?php
 
-            <table class="table diractions_service">
-                <thead>
-                <tr>
-                    <td><h4><b>Консультативный приём</b></h4></td>
-                    <td><h4><b>Первичный</b></h4></td>
-                    <td><h4><b>Вторичный</b></h4></td>
-                </tr>
-                </thead>
-                <tbody>
+            $price1 = $price->getPriceMain();
+            $price2 = $price->getPriceMainWithHome();
 
-<!--          --><?php //foreach ($res as $item => $value): ?>
+            ?>
+            <div class="col-sm-8 text-doc">
+                <table class="table_price">
+                    <caption>Прайс лист на Услуги</caption>
+                    <tr>
+                        <th>Направление</th>
+                        <th>Цена за 1 посещение</th>
+                        <th>Цена за последующее посещение</th>
+                    </tr>
 
-                <tr>
-                    <td >Гинеколога</td>
-                    <td >320 грн</td>
-                    <td >220 грн</td>
-                </tr>
-<!--      --><?php //endforeach;?><!--          -->
+                    <?php foreach ($price1 as $key=>$value):?>
+                        <tr>
+                            <td><?=$value['specialty'] ?></td>
+                            <td><?=$value['price_first_time'].' грн' ?></td>
+                            <td><?=$value['price_after'].' грн' ?></td>
+                        </tr>
+                    <?php endforeach; ?>
+                    <?php foreach ($price2 as $item=>$value):?>
+                        <tr>
+                            <td><?= $value['specialty'] ?></td>
+                            <td colspan="2"><?= $value['consulting_at_home'].' грн' ?></td>
+                        </tr>
+                    <?php endforeach; ?>
+                </table>
+            </div>
 
-                <tr>
-                    <td >Гинеколога <small> вызов врача на дом - 550 грн</small></td>
-                    <td >320 грн</td>
-                    <td >220 грн</td>
-                </tr>
 
 
 
-                </tbody>
-            </table>
+
+            <!--            <table class="table diractions_service">-->
+<!--                <thead>-->
+<!--                <tr>-->
+<!--                    <td><h4><b>Консультативный приём</b></h4></td>-->
+<!--                    <td><h4><b>Первичный</b></h4></td>-->
+<!--                    <td><h4><b>Вторичный</b></h4></td>-->
+<!--                </tr>-->
+<!--                </thead>-->
+<!--                <tbody>-->
+<!---->
+<!--<!--          --><?php ////foreach ($res as $item => $value): ?>
+<!---->
+<!--                <tr>-->
+<!--                    <td >Гинеколога</td>-->
+<!--                    <td >320 грн</td>-->
+<!--                    <td >220 грн</td>-->
+<!--                </tr>-->
+<!--<!--      --><?php ////endforeach;?><!--<!--          -->
+<!---->
+<!--                <tr>-->
+<!--
+<!--                    <td >320 грн</td>-->
+<!--                    <td >220 грн</td>-->
+<!--                </tr>-->
+<!---->
+<!---->
+<!---->
+<!--                </tbody>-->
+<!--            </table>-->
 
 
 
