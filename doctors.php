@@ -4,7 +4,7 @@ include_once "header.php";
 include_once 'Config/config.php';
 $doctors = new Doctors($db);
 $doctors = $doctors->getDoctorsShort();
-var_dump($doctors);
+//var_dump($doctors);
 
 ?>
     <div class="directions_header">
