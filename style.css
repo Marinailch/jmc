@@ -184,7 +184,7 @@ a:hover {
     line-height: 1.1111em !important;
     text-decoration: none !important;
     text-transform: none !important;
-    letter-spacing: 0px !important;
+    letter-spacing: 0 !important;
     margin-top: 1.22em !important;
     margin-bottom: 0.78em !important;
     color: #fff !important;
@@ -2982,7 +2982,7 @@ background-color: #fff;
         padding: 1px 55px 0px 60px;
     }
 
-<<<<<<< .mine
+
 }
 
 .table_price {
@@ -3021,8 +3021,8 @@ background-color: #fff;
     text-align: center;
 }
 
-=======
-}
+
+
 .table_price {
     border-collapse: collapse;
     border-left: 3px solid #c0d05b;
@@ -3059,5 +3059,3 @@ background-color: #fff;
 .table_price td:last-of-type {
     text-align: center;
 }
-
->>>>>>> .theirs
