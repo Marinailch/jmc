@@ -23,10 +23,11 @@ var_dump($doctors);
                 <div class="col-sm-3">
                     <div class="doctor_card"><a class="" href=""><img class="" src="img/doctors_foto/<?= $value['link_foto_doctor']?>"></a>
                         <div class="doctor_info">
-                            <h5><?= $value['specialty_of_doctor']?></h5>
-                            <h4><?= $value['name_of_doctor']?></h4>
-                            <h6><?= $value['science_degree']?></h6>
-                            <button type="submit" class="btn btn-default doctors_cart_button">Записаться</button>
+                            <h5><?= $value['name_of_doctor']?></h5>
+                            <h6><?= $value['specialty_of_doctor']?></h6>
+                            <h4><?= $value['science_degree']?></h4>
+
+                            <button type="submit" class="btn btn-default doctors_cart_button">Подробнее</button>
                         </div>
                     </div>
                 </div>
