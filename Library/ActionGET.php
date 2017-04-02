@@ -40,7 +40,7 @@ class ActionGET extends DataBase
         $id = filter_input(INPUT_GET, 'page');
 
         if(!$id){
-            return 'pages/main.php';
+            return 'main.php';
         }
         return FALSE;
 
