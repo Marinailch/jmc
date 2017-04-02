@@ -1,16 +1,21 @@
 <?php
-
-
-//Получаем ГЕТ запрос
+//Получаем массив из ГЕТ запроса
+//Если его нет - возвращает массив с фото и описанием главной страницы
+//Если есть - массив с описанием искомого направления
 $id = $request->getGET();
+
+
+
+//Получаем ТРУ или ФОЛС в зависимости от наличия или отсутствия ГЕТ
+$request->getReqByGet();
+
 
 //Получаем все направления
 $res = $directions->getDirections();
 
-//var_dump($id);
 ?>
     <div class="directions_header">
-        <p>Функциональные направления</p>
+        <p>Консультативный прием</p>
     </div>
     <div class="container">
         <div class="row">
@@ -29,11 +34,18 @@ $res = $directions->getDirections();
                     </div>
                 </div>
             </div>
+
+
+<!-- Если есть ГЕТ запрос данная функция вернет ТРУ и загрузится направление-->
+<?php if($request->getReqByGet()):?>
+                    <!-- Это начало-->
             <div class="col-sm-8 text-doc">
                 <nav>
+
                     <!-- ЭТО КАРТИНКА НАПРАВЛЕНИЯ-->
-                    <img src="img/diractions/<?= $id['link_foto_direction'] ?>" class="diractions_main_img">
+                        <img src="img/diractions/<?= $id['link_foto_direction'] ?>" class="diractions_main_img">
                     <!-- ЭТО ОПИСАНИЕ НАПРАВЛЕНИЯ-->
+
                     <?php
                     echo $id['description_direction'];
                     $doctors = $doctors->getDoctorsByDirection($id['id']);
@@ -121,6 +133,45 @@ $res = $directions->getDirections();
 
                 </nav>
             </div>
+
+
+            <!-- Это конец-->
+    <!-- Если нет ГЕТ запроса данная функция вернет ФОЛС и загрузится Главная страница-->
+<?php else: ?>
+
+            <!-- Это начало-->
+
+    <div class="col-sm-8 text-doc">
+        <nav>
+
+            <!-- ЭТО КАРТИНКА НАПРАВЛЕНИЯ-->
+            <img src="img/diractions/<?= $id[0]['foto_main'] ?>" class="diractions_main_img"><br>
+            <!-- ЭТО ОПИСАНИЕ НАПРАВЛЕНИЯ-->
+            <hr>
+            <div><?= $id[0]['descr_main'] ?></div>
+            <hr>
+            <!-- Теперь получаем прайс всех консультаций-->
+<?php
+
+$price1 = $price->getPriceMain();
+$price2 = $price->getPriceMainWithHome();
+var_dump($price1);
+var_dump($price2);
+
+
+?>
+
+
+
+
+
+
+
+
+    <!-- Это конец-->
+
+<?php endif ?>
+
         </div>
         <div class="diraction_form">
             <h2>Запишитесь на приём!</h2>
@@ -175,4 +226,3 @@ $res = $directions->getDirections();
 
 
 
-<?php include "footer.php" ?>

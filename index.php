@@ -2,7 +2,7 @@
 
 include_once 'Config/config.php';
 
-
+$price = new Price($db);
 $doctors = new Doctors($db);
 $request = new ActionGET($db);
 $directions = new Directions($db);
