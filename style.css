@@ -1522,8 +1522,16 @@ a:hover {
 
 /*О НАС*/
 /*анимация круга со счетчиком*/
+.wrapper1{
+    /*display: none;*/
+    visibility: hidden;
+    width: 920px;
+    margin: 65px;
+    /*overflow: hidden;*/
+}
+
 .wrapper{
-    display: none;
+    visibility: hidden;
     width: 920px;
     margin: 65px;
     /*overflow: hidden;*/
@@ -1574,6 +1582,13 @@ a:hover {
     font-size: 39px;
     text-align: left;
 }
+
+.about_container{
+    background-image: url("img/minora3_bg.png");
+
+}
+
+
 
 .about_counter_el1{
     color: #919191;
@@ -1976,7 +1991,7 @@ padding: 80px 0px 100px 0px;
 }
 
 .recommend_record{
-    padding: 180px 0px 180px 0px;
+    padding: 150px 0px 150px 0px;
 }
 
 .recommend_record p{

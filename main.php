@@ -106,7 +106,8 @@
 </div>
 
 <!--  О НАС -->
-<div class="container">
+<div class="about_container">
+<div class="container ">
     <div class="row">
 
         <div class=" col-md-6">
@@ -122,7 +123,7 @@
 
 
         <div class="col-sm-6 about_counter">
-            <div class="wrapper">
+            <div class="wrapper1">
                 <div class="box">
                     <p><span class="about_counter_el1">НА ВСЕ</span></p>
                     <input type="text" value="100" class="dial" data-readOnly="true" data-thickness="0.03" data-fgColor="#f7a34a" data-bgColor="#fff" data-width="300px" data-fontWeight="600" data-font="" >
@@ -151,7 +152,7 @@
                     }
                 })
             </script>
-            <img src="../img/minora.png" class="solution " alt="Cinque Terre" width="304" height="236"/>
+<!--            <img src="../img/minora.png" class="solution " alt="Cinque Terre" width="304" height="236"/>-->
         </div>
     </div>
 </div>
@@ -272,7 +273,7 @@
 
 <div class="advantages">
     <div class="container">
-        <p><span class="markh2b">Наши преимущества</span></p>
+        <p><span class="markh2w">Наши преимущества</span></p>
         <div id="owl-demo2">
             <div class="item"> <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
                 <p><span class="markh4b">КАЧЕСТВЕННО И ВЫСОКОТЕХНОЛОГИЧНО</span></p>
@@ -460,9 +461,9 @@
 
     <div class="col-sm-6 recommend_record" >
         <div class="recommend_in">
-            <p><span class="markh2w">Наши достижения</span> </p>
-            <p><span class="markh4o">КАК МЫ ПОМОГАЕМ ЛЮДЯМ</span> </p>
-            <p>За пять лет своей работы уникальная программа еврейской общины Днепра – Медицинский центр JMC – добился значительных успехов</p>
+            <p><span class="markh2w">Современные методики лечения </span> </p>
+            <p><span class="markh4o">Нам можно доверять! </span> </p>
+            <p>Вы доверяйте нам, а мы в свою очередь предоставляем Вам максимально точную диагностику и наиболее эффективные методики лечения </p>
             <a href="../directions.php" class="button_o hvr-radial-in">Узнать о нас больше</a>
 
         </div>
