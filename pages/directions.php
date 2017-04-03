@@ -152,42 +152,42 @@ $res = $directions->getDirections();
             <hr>
         </nav>
     </div>
+    <!-- Теперь получаем прайс всех консультаций-->
+    <?php
 
+    $price1 = $price->getPriceMain();
+    $price2 = $price->getPriceMainWithHome();
+
+    ?>
+    <div class="col-sm-8 text-doc">
+        <table class="table_price">
+            <caption>Прайс лист на Услуги</caption>
+            <tr>
+                <th>Направление</th>
+                <th>Цена за 1 посещение</th>
+                <th>Цена за последующее посещение</th>
+            </tr>
+
+            <?php foreach ($price1 as $key=>$value):?>
+                <tr>
+                    <td><?=$value['specialty'] ?></td>
+                    <td><?=$value['price_first_time'].' грн' ?></td>
+                    <td><?=$value['price_after'].' грн' ?></td>
+                </tr>
+            <?php endforeach; ?>
+            <?php foreach ($price2 as $item=>$value):?>
+                <tr>
+                    <td><?= $value['specialty'] ?></td>
+                    <td colspan="2"><?= $value['consulting_at_home'].' грн' ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+    </div>
+    <!-- Конец прайса-->
 
 
 <?php endif ?>
-            <!-- Теперь получаем прайс всех консультаций-->
-            <?php
 
-            $price1 = $price->getPriceMain();
-            $price2 = $price->getPriceMainWithHome();
-
-            ?>
-            <div class="col-sm-8 text-doc">
-                <table class="table_price">
-                    <caption>Прайс лист на Услуги</caption>
-                    <tr>
-                        <th>Направление</th>
-                        <th>Цена за 1 посещение</th>
-                        <th>Цена за последующее посещение</th>
-                    </tr>
-
-                    <?php foreach ($price1 as $key=>$value):?>
-                        <tr>
-                            <td><?=$value['specialty'] ?></td>
-                            <td><?=$value['price_first_time'].' грн' ?></td>
-                            <td><?=$value['price_after'].' грн' ?></td>
-                        </tr>
-                    <?php endforeach; ?>
-                    <?php foreach ($price2 as $item=>$value):?>
-                        <tr>
-                            <td><?= $value['specialty'] ?></td>
-                            <td colspan="2"><?= $value['consulting_at_home'].' грн' ?></td>
-                        </tr>
-                    <?php endforeach; ?>
-                </table>
-            </div>
-                    <!-- Конец прайса-->
 
 <div class="diraction_form">
             <h2>Запишитесь на приём!</h2>
