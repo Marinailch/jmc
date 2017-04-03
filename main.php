@@ -158,8 +158,8 @@
 </div>
 
 <div class="container about_item">
-    <p> <span class="markh1b">О нашем центре</span></p>
-    <p><span class="markh4o">ДАВАЙТЕ ПОЗНАКОМИМСЯ!</span></p>
+    <p class="markh1b"> О нашем центре</p>
+    <p class="markh4o"><span >ДАВАЙТЕ ПОЗНАКОМИМСЯ!</span></p>
     <div class="row">
         <div class="col-sm-4"><img src="../img/about/about3.jpg"><div class="about_item_text"><h4>Наши руководители </h4><p>Целями нашего центра являются оказание квалифицированной, качественной, адекватной состоянию здоровья пациента ...   </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
         <div class="col-sm-4"><img src="../img/about/about2.jpg"><div class="about_item_text"><h4>О клинике         </h4><p>С открытием нового двухэтажного офиса JMC в центре «Менора» мы расширяем деятельность, в частности ...               </p> <div><p class="diraction_form_button">узнать больше</p></div></div> </div>
@@ -182,7 +182,7 @@
 
 
 <!--  наша команда -->
-<div id="team" style="background-image: url(../img/bg_doc.jpg);">
+<div id="team" style="background-image: url(img/bg_doc.jpg);">
     <div class="container ">
         <div class="row">
             <div class="col-md-3" style="float: right; "></div>

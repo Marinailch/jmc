@@ -172,7 +172,7 @@ a:hover {
     text-transform: none !important;
     letter-spacing: -3px !important;
     margin-top: 1.22em !important;
-    margin-bottom: 0.78em !important;
+    /*margin-bottom: 0.78em !important;*/
     color: #414141;
 }
 
@@ -1523,6 +1523,7 @@ a:hover {
 /*О НАС*/
 /*анимация круга со счетчиком*/
 .wrapper{
+    display: none;
     width: 920px;
     margin: 65px;
     /*overflow: hidden;*/
@@ -1626,6 +1627,17 @@ a:hover {
 .about_item{
     margin-top: 50px;
 }
+
+.about_item  .markh4o {
+ margin-bottom: 50px;
+    color: #f7a34a;
+}
+
+.about_item  .markh1b {
+
+    color: #414141;
+}
+
 .about_item img{
     width: 370px;
 }
