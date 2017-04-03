@@ -8,7 +8,8 @@
     <meta name="author" content="">
     <meta name="keywords" content="Клиника">
     <link rel="stylesheet" href="css/bootstrap.min.css" media="all"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+    <script src="js/jquery-3.1.1-jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/jquery.knob.min.js"></script>
     <link rel="stylesheet" href="css/slider-pro.min.css">

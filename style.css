@@ -1531,7 +1531,7 @@ a:hover {
 }
 
 .wrapper{
-    visibility: hidden;
+    /*visibility: hidden;*/
     width: 920px;
     margin: 65px;
     /*overflow: hidden;*/
