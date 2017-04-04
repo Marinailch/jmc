@@ -20,9 +20,10 @@ $doctors = $doctors->getDoctorsShort();
 
 <?php foreach($doctors as $key=>$value):?>
 
-    <a class="" href="">
-        <div class="col-sm-3">
-                    <div class="doctor_card"><img class="" src="img/doctors_foto/<?= $value['link_foto_doctor']?>">
+    <a  href="">
+        <div class="col-sm-3 " >
+                    <div class="doctor_card hvr-grow-shadow">
+                        <img class="" src="img/doctors_foto/<?= $value['link_foto_doctor']?>">
 
                                 <div class="doctor_info">
 

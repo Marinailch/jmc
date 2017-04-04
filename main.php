@@ -276,20 +276,20 @@
         <p><span class="markh2w">Наши преимущества</span></p>
         <div id="owl-demo2">
             <div class="item"> <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
-                <p><span class="markh4b">КАЧЕСТВЕННО И ВЫСОКОТЕХНОЛОГИЧНО</span></p>
+                <p><span class="markh4g">КАЧЕСТВЕННО И ВЫСОКОТЕХНОЛОГИЧНО</span></p>
                 <p>JMC гарантирует качество результатов диагностики и лечения;<br>
                     мы работаем на современном лабораторном и диагностическом оборудовании,<br>
                     многоуровневая система контроля качества оказания медицинской помощи  </p></div>
 
             <div class="item"> <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
-                <p><span class="markh4b">ЧЕСТНО И ГУМАННО</span></p>
+                <p><span class="markh4g">ЧЕСТНО И ГУМАННО</span></p>
                 <p> наша основная задача – здоровье и благополучие наших клиентов;<br>
                     осуществление благотворительной деятельности;<br>
                     JMC не сотрудничает с фармацевтическими представителями.<br>
                     В клинике ytn рекламы лекарственных препаратов<br>
                 </p></div>
             <div class="item"> <div class="circle"><img src="../img/icon_diractions/owl1.png" alt="Owl Image"></div>
-                <p><span class="markh4b">УДОБНО И КОМФОРТНО</span></p>
+                <p><span class="markh4g">УДОБНО И КОМФОРТНО</span></p>
                 <p>  работаем каждое воскресенье и все государственные праздники;<br>
                     ведем прием пациентов до последнего клиента;<br>
                     результаты лабораторных исследований выдаем сразу;<br>
