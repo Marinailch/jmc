@@ -1584,7 +1584,7 @@ a:hover {
 }
 
 .about_container{
-    background-image: url("img/minora3_bg.png");
+    background: url("img/minora3_bg.png") no-repeat;
 
 }
 
@@ -2069,8 +2069,9 @@ padding: 80px 0px 100px 0px;
     margin: auto;
     overflow: hidden;
     border: #dcdcdc 1px solid;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     margin-top: 20px;
+    min-width: 184px;
 }
 
 .doctor_card img:only-of-type {
@@ -2084,6 +2085,11 @@ padding: 80px 0px 100px 0px;
 .doctor_info {
     text-align: center;
     padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.doctor_info h4, h5, h6{
+    margin-bottom: 3px;
 }
 
 .doctor_info h3 {
@@ -2095,23 +2101,27 @@ padding: 80px 0px 100px 0px;
 }
 
 .doctor_info h4{
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 0px;
     color: #8c8884;
 
 }
 
 .doctor_info h5{
-    margin-top: 25px;
-    color: #867c72;
-    font-size: 18px !important;
+    /*margin-top: 25px;*/
+    color: #61574d;
+    font-size: 17px !important;
 }
 
 .doctor_info h6{
-    font-size: 14px;
-    margin-top: 0px;
-    color: #9a9480;
+    font-size: 12px;
+    margin-top: 7px;
+    color: #a7b759;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
 }
+
 
 
 

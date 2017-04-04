@@ -20,17 +20,26 @@ $doctors = $doctors->getDoctorsShort();
 
 <?php foreach($doctors as $key=>$value):?>
 
-                <div class="col-sm-3">
-                    <div class="doctor_card"><a class="" href=""><img class="" src="img/doctors_foto/<?= $value['link_foto_doctor']?>"></a>
-                        <div class="doctor_info">
-                            <h5><?= $value['name_of_doctor']?></h5>
+    <a class="" href="">
+        <div class="col-sm-3">
+                    <div class="doctor_card"><img class="" src="img/doctors_foto/<?= $value['link_foto_doctor']?>">
+
+                                <div class="doctor_info">
+
+
+                            <?php
+                            // не удаляй этот код он мне нужен
+                                    $fio  = $value['name_of_doctor'];
+                                    $fio_pieces = explode(" ", $fio);
+                            ?>
+                            <h5><?= $fio_pieces[0]?></h5>
+                            <h5><?= $fio_pieces[1]." ".$fio_pieces[2]?></h5>
                             <h6><?= $value['specialty_of_doctor']?></h6>
                             <h4><?= $value['science_degree']?></h4>
-
-                            <button type="submit" class="btn btn-default doctors_cart_button">Подробнее</button>
                         </div>
                     </div>
                 </div>
+    </a>
 <?endforeach; ?>
 
             <!-- Это конец карточки доктора-->
