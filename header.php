@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="col-6  head_adress">
-                            <span class="geo">717-70-58<br> 717-70-59</span><br>
+                            <span class="geo">71-770-58<br> 71-770-59</span><br>
                         </div>
                     </div>
 

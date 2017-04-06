@@ -1,5 +1,4 @@
-﻿    <!-- footer -->
-    <div class="footer">
+﻿    <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
@@ -56,15 +55,13 @@
 
 
 
-
-<!--	<script src="js/jquery-1.12.0.min.js"></script>-->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/superfish.min.js"></script>
     <script src="js/jquery.sliderPro.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/custom.js"></script>
     <script src="js/script.js"></script>
-<!--    <script src="js/jquery-3.1.1-jquery.min.js"></script>-->
+
 
 
 

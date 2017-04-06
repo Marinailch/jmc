@@ -17,8 +17,8 @@ $res = $directions->getDirections();
     <div class="directions_header">
         <p>Консультативный прием</p>
     </div>
-    <div class="container">
-        <div class="row">
+<div class="container">
+    <div class="row">
             <div class="col-sm-4">
                 <div class="directions_menu">
                     <div class="doctor_info">
@@ -147,9 +147,9 @@ $res = $directions->getDirections();
             <!-- ЭТО КАРТИНКА НАПРАВЛЕНИЯ-->
             <img src="img/diractions/<?= $id[0]['foto_main'] ?>" class="diractions_main_img"><br>
             <!-- ЭТО ОПИСАНИЕ НАПРАВЛЕНИЯ-->
-            <hr>
+
             <div><?= $id[0]['descr_main'] ?></div>
-            <hr>
+
         </nav>
     </div>
     <!-- Теперь получаем прайс всех консультаций-->
@@ -164,8 +164,8 @@ $res = $directions->getDirections();
             <caption>Прайс лист на Услуги</caption>
             <tr>
                 <th>Направление</th>
-                <th>Цена за 1 посещение</th>
-                <th>Цена за последующее посещение</th>
+                <th style="padding-top: 25px;">Цена, грн<br> <span style="font-weight: 100; font-size:12px;">первое      посещение</span></th>
+                <th style="padding-top: 25px;">Цена, грн<br>  <span style="font-weight: 100; font-size: 12px;">последующее посещение</span></th>
             </tr>
 
             <?php foreach ($price1 as $key=>$value):?>
@@ -175,12 +175,12 @@ $res = $directions->getDirections();
                     <td><?=$value['price_after'].' грн' ?></td>
                 </tr>
             <?php endforeach; ?>
-            <?php foreach ($price2 as $item=>$value):?>
-                <tr>
-                    <td><?= $value['specialty'] ?></td>
-                    <td colspan="2"><?= $value['consulting_at_home'].' грн' ?></td>
-                </tr>
-            <?php endforeach; ?>
+<!--            --><?php //foreach ($price2 as $item=>$value):?>
+<!--                <tr>-->
+<!--                    <td>--><?//= $value['specialty'] ?><!--</td>-->
+<!--                    <td colspan="2">--><?//= $value['consulting_at_home'].' грн' ?><!--</td>-->
+<!--                </tr>-->
+<!--            --><?php //endforeach; ?>
         </table>
     </div>
     <!-- Конец прайса-->
@@ -189,7 +189,7 @@ $res = $directions->getDirections();
 <?php endif ?>
 
 
-<div class="diraction_form">
+        <div class="diraction_form">
             <h2>Запишитесь на приём!</h2>
             <form class="form-horizontal ">
 
@@ -239,6 +239,7 @@ $res = $directions->getDirections();
 
         </div>
     </div>
+</div>
 
 
 
