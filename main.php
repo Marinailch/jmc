@@ -1,54 +1,12 @@
-<div class="main-content">
-    <section class="mdc-area mdc-area-nospace">
-        <div class="widget mdc-widget-slider-01">
-            <div class="widget-content">
-                <div class="slider-pro slider-pro-1">
-                    <div class="sp-slides">
-                        <div class="sp-slide mdc-slide-rgba">
-                            <div class="sp-image-container">
-                                <img class="sp-image sp-image-bg" src="../img/slider1.jpg" data-src="img/slider1.jpg"
-                                     data-retina="img/slider1.jpg" alt=""/></div>
-                            <p class="sp-layer sp-txt-2" data-horizontal="20%" data-vertical="30%"
-                               data-show-transition="right" data-show-delay="400" data-hide-delay="300"
-                               data-show-duration="800" data-hide-duration="800">Мы нацелены только на один
-                                результат</p>
-                            <p class="sp-layer sp-txt-3" data-horizontal="20%" data-vertical="40%"
-                               data-show-transition="up" data-show-delay="1200" data-hide-delay="300"
-                               data-show-duration="1000" data-hide-duration="1000"><i>Ваша здоровье!</i></p>
-                            <!--                                    <p class="sp-layer sp-txt-3" data-horizontal="20%" data-vertical="52%" data-show-transition="up" data-show-delay="1800" data-hide-delay="300" data-show-duration="1000" data-hide-duration="1000"><i>нашим пациентам, забота об их здоровье, профилактика </i></p>-->
-                            <p class="sp-layer sp-txt-4 " data-horizontal="20%" data-vertical="50%"
-                               data-position="topleft" data-show-transition="down" data-show-delay="1800"
-                               data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a
-                                        href="../doctors.php?id=d5" class="hvr-grow-shadow slider_button">Записаться на
-                                    приём</a></p>
-                        </div>
-                        <div class="sp-slide">
-                            <div class="sp-image-container">
-                                <img class="sp-image sp-image-bg" src="../img/slider1.jpg" data-src="img/slider1.jpg"
-                                     data-retina="img/slider1.jpg" alt=""/></div>
-                            <p class="sp-layer sp-txt-2" data-horizontal="20%" data-vertical="30%"
-                               data-show-transition="right" data-show-delay="400" data-hide-delay="300"
-                               data-show-duration="800" data-hide-duration="800">Мы нацелены только на один
-                                результат</p>
-                            <p class="sp-layer sp-txt-3" data-horizontal="20%" data-vertical="40%"
-                               data-show-transition="up" data-show-delay="1200" data-hide-delay="300"
-                               data-show-duration="1000" data-hide-duration="1000"><i>Ваша здоровье!</i></p>
-                            <p class="sp-layer sp-txt-4" data-horizontal="20%" data-vertical="50%"
-                               data-position="topleft" data-show-transition="down" data-show-delay="1800"
-                               data-hide-delay="300" data-show-duration="800" data-hide-duration="800"><a
-                                        href="../doctors.php?id=d5">Записаться на приём</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="loading-slider">
-                    <i class="fa fa-refresh fa-spin"></i>
-                </div>
-            </div>
-        </div>
-    </section>
 
-
-</div> <!-- end main container -->
+<div class="slidin2">
+    <p></p>
+    <div class="sildin">
+    <?php
+    include "slider1.php"
+    ?>
+    </div>
+</div>
 <div class="why_block">
     <div class="container">
 

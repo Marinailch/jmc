@@ -35,24 +35,23 @@ $res = $directions->getDirections();
                 </div>
             </div>
 
-
+        <div class="col-sm-8 text-doc">
+            <nav>
 <!-- Если есть ГЕТ запрос данная функция вернет ТРУ и загрузится направление-->
 <?php if($request->getReqByGet()):?>
                     <!-- Это начало-->
-            <div class="col-sm-8 text-doc">
-                <nav>
-
                     <!-- ЭТО КАРТИНКА НАПРАВЛЕНИЯ-->
                         <img src="img/diractions/<?= $id['link_foto_direction'] ?>" class="diractions_main_img">
                     <!-- ЭТО ОПИСАНИЕ НАПРАВЛЕНИЯ-->
+                    <p class="description_direction">
+                            <?php
+                                    echo $id['description_direction'];
+                                    $doctors = $doctors->getDoctorsByDirection($id['id']);
+//                                    var_dump($doctors);
+                            ?>
+                    </p>
 
-                    <?php
-                    echo $id['description_direction'];
-                    $doctors = $doctors->getDoctorsByDirection($id['id']);
-                    var_dump($doctors);
-                    ?>
-
-                    <h4><b>У нас работают лучшие специалисты города</b></h4>
+                    <h4 class="diractions_title"><b>У нас работают лучшие специалисты города</b></h4>
                     <hr>
                     <div class="media">
                         <div class="media-left">
@@ -69,40 +68,43 @@ $res = $directions->getDirections();
                         </div>
                     </div>
 
-
-                    <table class="table diractions_service">
-                        <tbody>
-                        <tr>
-                            <td>Консультация гинеколога</td>
-                            <td class="diractions_service_price">Первичный прием - 320 грн</td>
-                            <td class="diractions_service_price">Вторичный прием - 220 грн</td>
-
-                        </tr>
-                        </tbody>
-                    </table>
                     <hr>
+                    <div class="row diractions_service">
+                        <tbody>
+
+                            <div class="col-md-4 markh4o">Консультация гинеколога</div>
+                            <div class="col-md-4 markh4o">Первичный прием - 320 грн</div>
+                            <div class="col-md-4 markh4o">Вторичный прием - 220 грн</div>
 
 
-                    <h4><b>В нашей клинике Вы можите получить следующие услуги</b></h4>
-                    <table class="table diractions_service">
+                        </tbody>
+                    </div>
+
+
+
+                    <h4 class="diractions_title"><b>В нашей клинике Вы можите получить следующие услуги</b></h4>
+                    <table class="table ">
                         <tbody>
                         <tr>
                             <td>Консультация гинеколога</td>
+                            <td></td>
                             <td class="diractions_service_price">220 грн</td>
 
                         </tr>
                         <tr>
                             <td>УЗИ молочных желез</td>
+                            <td></td>
                             <td class="diractions_service_price">220 грн</td>
                         </tr>
                         <tr>
                             <td>Кольпоскопия</td>
+                            <td></td>
                             <td class="diractions_service_price">220 грн</td>
                         </tr>
                         </tbody>
                     </table>
 
-                    <h4><b>Гинекологическая панель анализов</b></h4>
+                    <h4 class="diractions_title"><b>Гинекологическая панель анализов</b></h4>
                     <table class="table">
                         <tbody>
                         <tr>
@@ -131,8 +133,6 @@ $res = $directions->getDirections();
                     </table>
 
 
-                </nav>
-            </div>
 
 
             <!-- Это конец-->
@@ -141,8 +141,6 @@ $res = $directions->getDirections();
 
             <!-- Это начало-->
 
-    <div class="col-sm-8 text-doc">
-        <nav>
 
             <!-- ЭТО КАРТИНКА НАПРАВЛЕНИЯ-->
             <img src="img/diractions/<?= $id[0]['foto_main'] ?>" class="diractions_main_img"><br>
@@ -150,8 +148,7 @@ $res = $directions->getDirections();
 
             <div><?= $id[0]['descr_main'] ?></div>
 
-        </nav>
-    </div>
+
     <!-- Теперь получаем прайс всех консультаций-->
     <?php
 
@@ -159,9 +156,9 @@ $res = $directions->getDirections();
     $price2 = $price->getPriceMainWithHome();
 
     ?>
-    <div class="col-sm-8 text-doc">
+
         <table class="table_price">
-            <caption>Прайс лист на Услуги</caption>
+            <caption>Прайс лист на услуги</caption>
             <tr>
                 <th>Направление</th>
                 <th style="padding-top: 25px;">Цена, грн<br> <span style="font-weight: 100; font-size:12px;">первое      посещение</span></th>
@@ -182,7 +179,7 @@ $res = $directions->getDirections();
 <!--                </tr>-->
 <!--            --><?php //endforeach; ?>
         </table>
-    </div>
+
     <!-- Конец прайса-->
 
 
@@ -190,29 +187,29 @@ $res = $directions->getDirections();
 
 
         <div class="diraction_form">
-            <h2>Запишитесь на приём!</h2>
+            <p class=" markh2b">Запишитесь на приём!</p>
             <form class="form-horizontal ">
 
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="name"></label>
+<!--                    <label class="control-label col-sm-2" for="name"></label>-->
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="name" placeholder="Ваше Имя">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="phone"></label>
+<!--                    <label class="control-label col-sm-2" for="phone"></label>-->
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="phone" placeholder="Телефон">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="email"></label>
+<!--                    <label class="control-label col-sm-2" for="email"></label>-->
                     <div class="col-sm-10">
                         <input type="email" class="form-control" id="email" placeholder="Электронный адрес">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="data"></label>
+<!--                    <label class="control-label col-sm-2" for="data"></label>-->
                     <div class="col-sm-10">
                         <input type="date" class="form-control" id="date" name="date" placeholder="Дата" required>
 
@@ -220,7 +217,7 @@ $res = $directions->getDirections();
                 </div>
 
                 <div class="form-group">
-                    <label for="diractions_select" class="col-sm-2 control-label"></label>
+<!--                    <label for="diractions_select" class="col-sm-2 control-label"></label>-->
                     <div class="col-sm-10">
                         <select class="form-control" id="diractions_select">
                             <option>Ваберите из списка гинеколога</option>
@@ -237,6 +234,9 @@ $res = $directions->getDirections();
                 </div>
             </form>
 
+        </div>
+
+            </nav>
         </div>
     </div>
 </div>
